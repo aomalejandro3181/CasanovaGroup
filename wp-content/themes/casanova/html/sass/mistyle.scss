@@ -1,0 +1,104 @@
+/* TRABAJANDO CSS DE TODO EQUIPO*/
+#equipo{
+    background-image: url(images/group-243.png);
+    background-repeat: no-repeat;
+    background-size: 100% 636px;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.estilo-h2{
+  width: 80px;
+  height: 60px;
+  font-family: BaseNeue;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height:1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+  
+}
+.estilo-h3{
+  width: 210px;
+  height: 15px;
+  font-family: BaseNeue;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.estilo-p{
+    font-size: 25px;
+    font-weight: normal;
+    color: #f9b03d;
+    
+} 
+/*-----------FIN DE EQUIPO-------------*/
+
+
+/*TRABAJANDO CONTACTO TODO EL CSS*/
+
+#contacto{
+    width: 1440px;
+    height: 595px;
+    background-color: #ffffff;
+    padding-top: 80px;
+    
+}
+  #correo,#asunto{
+  width: 490px;
+  height: 38px;
+  margin-top: 10px;
+  padding-left: 10px;
+  }
+
+  #empresa,#telefono,#nombre,#apellido{
+      height: 38px;
+      margin-top: 10px;
+      padding-left: 10px;
+      width: 243px;
+  }
+  #mensaje{
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 490px;
+    height: 103px;
+    border-radius: 25.7px;
+    padding-bottom: 50px;
+  }
+  #enviar{
+      width: 207px;
+      height: 38px;
+      margin-top: 10px;
+      padding-left: 10px;
+  }
+
+#titulo-c{
+    width: 140px;
+    height: 60px;
+    font-family: BaseNeue;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #f9b03d;
+}
+#footer{
+  width: 1440px;
+  height: 87px;
+  background-color: #002757;
+}
+
+@media (min-width:320px){
+    #contacto{
+           display: block;
+       }
+}

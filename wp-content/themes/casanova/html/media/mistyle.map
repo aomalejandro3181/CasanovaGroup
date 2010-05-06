@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mistyle.css",
+	"sources": [
+		"../sass/media/mistyle.scss"
+	],
+	"sourcesContent": [
+		"section{\r\n    background-image: url(images/group-243.png);\r\n    width: 100%;\r\n    div{\r\n\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,yBAAyB;EAC3C,KAAK,EAAE,IAAI;CAId"
+}

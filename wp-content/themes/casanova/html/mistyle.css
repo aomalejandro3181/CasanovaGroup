@@ -1,38 +1,19 @@
-@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueLight.ttf"), url("../../casanova/html/fonts/BebasNeueLight.eot"), url("../../casanova/html/fonts/BebasNeueLight.woff"), url("../../casanova/html/fonts/BebasNeueLight.svg"); font-weight: lighter; }
-
-@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueBold.ttf"), url("../../casanova/html/fonts/BebasNeueBold.eot"), url("../../casanova/html/fonts/BebasNeueBold.woff"), url("../../casanova/html/fonts/BebasNeueBold.svg"); font-weight: bold; }
-
-@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueBook.ttf"), url("../../casanova/html/fonts/BebasNeueBook.eot"), url("../../casanova/html/fonts/BebasNeueBook.woff"), url("../../casanova/html/fonts/BebasNeueBook.svg"); font-weight: 300; }
-
-@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeue-Thin.ttf"), url("../../casanova/html/fonts/BebasNeue-Thin.eot"), url("../../casanova/html/fonts/BebasNeue-Thin.woff"), url("../../casanova/html/fonts/BebasNeue-Thin.svg"); font-weight: 100; }
-
-@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeue.ttf"), url("../../casanova/html/fonts/BebasNeue.eot"), url("../../casanova/html/fonts/BebasNeue.woff"), url("../../casanova/html/fonts/BebasNeue.svg"); font-weight: 300; }
-
-@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueRegular.ttf"), url("../../casanova/html/fonts/BebasNeueRegular.eot"), url("../../casanova/html/fonts/BebasNeueRegular.woff"), url("../../casanova/html/fonts/BebasNeueRegular.svg"); font-weight: normal; }
-
-/* imagen de section equipo*/
-#equipo{
-	background-image: url(images/group-243.png);
-	width: 1440px;
-	height: 636px;
-	padding-top: 80px;
+/* TRABAJANDO CSS DE TODO EQUIPO*/
+/* line 2, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+#equipo {
+  background-image: url(images/group-243.png);
+  background-repeat: no-repeat;
+  background-size: 100% 636px;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.estilo-p{
-
-  font-family: BebasNeue;
-  font-size: 23px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1;
-  letter-spacing: normal;
-  color: #f9b03d;
-  margin-bottom: 30px;
-}
-.estilo-h2{
-
-  font-family: BebasNeue;
+/* line 11, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+.estilo-h2 {
+  width: 80px;
+  height: 60px;
+  font-family: BaseNeue;
   font-size: 45px;
   font-weight: bold;
   font-style: normal;
@@ -41,157 +22,98 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-.estilo-h3{
-  font-family: BebasNeue;
+
+/* line 24, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+.estilo-h3 {
+  width: 210px;
+  height: 15px;
+  font-family: BaseNeue;
   font-size: 30px;
   font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
   line-height: 1;
+  letter-spacing: normal;
   color: #ffffff;
 }
-/*fondo section contacto*/	
 
-#contacto{ 
-	background-color: #ffffff;
-	width: 1440px; 
-	height: 523px;
-	padding-top: 70px;
-	
+/* line 36, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+.estilo-p {
+  font-size: 25px;
+  font-weight: normal;
+  color: #f9b03d;
 }
 
-#titulo-c{
-
-	font-family: BebasNeue;
-	font-size: 45px;
-	color:#f9b03d;
+/*-----------FIN DE EQUIPO-------------*/
+/*TRABAJANDO CONTACTO TODO EL CSS*/
+/* line 47, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+#contacto {
+  width: 1440px;
+  height: 595px;
+  background-color: #ffffff;
+  padding-top: 80px;
 }
 
-input{
-	margin-top: 10px;
+/* line 54, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+#correo, #asunto {
+  width: 490px;
+  height: 38px;
+  margin-top: 10px;
+  padding-left: 10px;
 }
-#correo,#asunto{
-	width: 491px;
-	height: 38px;
-	border: solid 1px #002757;
-	padding-left: 15px;
+
+/* line 61, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+#empresa, #telefono, #nombre, #apellido {
+  height: 38px;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 243px;
 }
-#nombre,#apellido,#empresa,#telefono{
-	width: 245px;
-	height: 38px;
-	border: solid 1px #002757;
-	padding-left: 15px;
-	
+
+/* line 67, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+#mensaje {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 490px;
+  height: 103px;
+  border-radius: 25.7px;
+  padding-bottom: 50px;
 }
-#mensaje{
-	width: 491px;
-	height: 113px;
-	padding-left: 15px;
-	padding-bottom: 60px;
-	border-radius: 27.5px;
-	border: solid 1px #002757;
-}
-#enviar{
+
+/* line 75, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+#enviar {
   width: 207px;
-  height: 46px;
-  border-radius: 27.5px;
-  border: solid 1px #002757;
-  color: #002757;
+  height: 38px;
+  margin-top: 10px;
+  padding-left: 10px;
 }
-@media (min-width: 1440px){
-	   #nombre,#apellido,#empresa,#telefono,#correo,#asunto{
-		width: 491px;
-	    height: 38px;
-	    display: block;
 
-	}
-	
-	.estilo-h3{
-		font-size: 10px;
-	}
-
+/* line 82, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+#titulo-c {
+  width: 140px;
+  height: 60px;
+  font-family: BaseNeue;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #f9b03d;
 }
-@media (max-width:420px){
-	#nombre,#apellido,#empresa,#telefono,#correo,#asunto{
-		width: 241px;
-	    height: 38px;
-	    display: block;
-	    margin-left: 20px;
-	    padding-left: 10px;
-   }
-    #mensaje{
-	width: 241px;
-	height: 113px;
-	margin-left: 20px;
-    padding-left: 10px;
-    padding-bottom: 60px;
-  }
-  #enviar{
-	width: 207px;
-	height: 47px;
-	margin-left: 20px;
 
-  }
-  #equipo{
-	background-color: #002757;
-	width: 375px;
-	height: 735px;
-	
-	
-	}
-	#contacto{
-	 width: 375px;
-     height: 737px;
-     background-color: #ffffff;
-     margin-bottom: 71px;
-
-	}
-	.estilo-h3{
-		font-size:12px;
-	}
-	.estilo-h2{
-		font-size:15px;
-	}
-	.estilo-p{
-		font-size: 12px;
-	}
-	#titulo-c{
-	 font-size: 30px;
-	 margin-left: 20px;
-	}
-	input{
-
-	}
+/* line 94, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+#footer {
+  width: 1440px;
+  height: 87px;
+  background-color: #002757;
 }
-/*@media (min-width:320px){
-	#nombre,#apellido,#empresa,#telefono,#correo,#asunto{
-		width: 241px;
-	    height: 38px;
-	    display: block;
-  }
-    #mensaje{
-	width: 241px;
-	height: 113px;
-}
-  #equipo{
-	background-color: #002757;
-	width: 375px;
-	height: 735px;
-	
-	
-	}
-	.estilo-h3{
-		font-size:12px;
-	}
-	.estilo-h2{
-		font-size:25px;
-	}
-	.estilo-p{
-		font-size: 12px;
-	}
-	#contacto{ 
-	background-color: #ffffff;
-	width: 375px; 
-	height: 737px;
-	
-  }
-}*/
 
+@media (min-width: 320px) {
+  /* line 101, ../../../../../xampp/htdocs/CasanovaGroup/wp-content/themes/casanova/html/sass/mistyle.scss */
+  #contacto {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=mistyle.css.map */

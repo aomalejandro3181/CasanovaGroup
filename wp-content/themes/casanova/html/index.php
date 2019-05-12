@@ -15,7 +15,12 @@
 
     </head>
     <body>
-    <h1 class="text-success">Hola</h1>
-    <?php include('header.php'); ?>
+    <div class="container">
+        <?php include('header.php'); ?>
+        <div class="row">
+            <div class="col-xs-6 col-lg-2 offset-lg-2">Prueba</div>
+        </div>
+    </div>
+    
     </body>
 </html>

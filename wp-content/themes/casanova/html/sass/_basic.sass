@@ -14,3 +14,59 @@ nav
         margin-right: 0px
 
 /*END NAVBAR HEADER*/
+
+.no-padding
+    padding: 0 !important
+
+/*SECTION HERO*/
+#hero
+    min-height: 86vh
+    border-top: 1px solid #F9B03D
+    .hero-sliders
+        .slider
+            position: relative
+            min-height: 86vh
+            background-color: $white
+            width: 100%
+            img
+                width: inherit
+                position: absolute
+            .cont-title
+                padding-top: 150px
+            .title
+                position: relative
+                font-size: 60px
+                font-weight: bold
+                color: $white
+                text-shadow: 0 2px 34px 0 rgba(0,0,0,0.3)
+            .sub-title
+                font-size: 21px
+                color: $white
+                line-height: 28px
+                text-shadow: 0 2px 34px 0 rgba(0,0,0,0.23)
+                margin-bottom: 27px
+            .btn-hero
+                padding: 10px 20px
+                color: $white
+        .slick-dots
+            text-align: center
+            li
+                display: inline-block
+                margin: 10px
+                button
+                    border: 0
+                    border-radius: 50%
+                    background-color: #FFF
+                    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5)
+                button:before
+                    font-size: 16px
+                    top: 2px
+                    color: transparent
+            li.slick-active
+                button:before
+                    color: #F9B03D
+    .oval
+	    height: 17px
+	    width: 17px
+	    background-color: #FFFFFF
+/*END SECTION HERO*/

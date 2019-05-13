@@ -1,1 +1,81 @@
-@font-face{font-family:'Graphik';src:url("../../themes/Opal/fonts/Graphik/graphik-regular-webfont.ttf"), url("../../themes/Opal/fonts/Graphik/graphik-regular-webfont.eot"), url("../../themes/Opal/fonts/Graphik/Graphik-Regular.woff"), url("../../themes/Opal/fonts/Graphik/Graphik-Regular.svg")}@font-face{font-family:'Graphik';src:url(../../themes/Opal/fonts/Graphik/graphik-thin-webfont.ttf), url("../../themes/Opal/fonts/Graphik/graphik-thin-webfont.eot"), url("../../themes/Opal/fonts/Graphik/Graphik-Thin.woff"), url("../../themes/Opal/fonts/Graphik/Graphik-Thin.svg");font-weight:100}nav{min-height:100px;background-color:#FFFFFF}.text-header{font-size:20px;line-height:28px;text-shadow:0 2px 34px 0 rgba(0, 0, 0, 0.67);color:#B0AEB3;text-transform:uppercase;margin-right:34px}.navbar-nav li:last-child{margin-right:0px}.no-padding{padding:0!important}#hero{min-height:86vh;border-top:1px solid #F9B03D}#hero .hero-sliders .slider{position:relative;min-height:86vh;background-color:#FFFFFF;width:100%}#hero .hero-sliders .slider img{width:inherit;position:absolute}#hero .hero-sliders .slider .cont-title{padding-top:150px}#hero .hero-sliders .slider .title{position:relative;font-size:60px;font-weight:bold;color:#FFFFFF;text-shadow:0 2px 34px 0 rgba(0, 0, 0, 0.3)}#hero .hero-sliders .slider .sub-title{font-size:21px;color:#FFFFFF;line-height:28px;text-shadow:0 2px 34px 0 rgba(0, 0, 0, 0.23);margin-bottom:27px}#hero .hero-sliders .slider .btn-hero{padding:10px 20px;color:#FFFFFF}#hero .hero-sliders .slick-dots{text-align:center}#hero .hero-sliders .slick-dots li{display:inline-block;margin:10px}#hero .hero-sliders .slick-dots li button{border:0;border-radius:50%;background-color:#FFF;-webkit-box-shadow:0 2px 10px 0 rgba(0, 0, 0, 0.5);box-shadow:0 2px 10px 0 rgba(0, 0, 0, 0.5)}#hero .hero-sliders .slick-dots li button:before{font-size:16px;top:2px;color:transparent}#hero .hero-sliders .slick-dots li.slick-active button:before{color:#F9B03D}#hero .oval{height:17px;width:17px;background-color:#FFFFFF}@media only screen and (min-width:1440px){.footer{background-image:url("../../themes/Opal/images/footer-bg.png");background-size:cover}.footer .content-footer{padding:208px 0 60px}}@media only screen and (max-width:767px){nav{min-height:auto}}
+/*                                            */
+/*  Theme Name: Opal                          */
+/*  Author: Teravision                        */
+/*  Author URI: http://teravisiontech.com     */
+/*  Description: Template form Opal project.  */
+/*  Version: 1.0                              */
+/*  License: Copy Right                       */
+/*                                            */
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueLight.ttf"), url("../../casanova/html/fonts/BebasNeueLight.eot"), url("../../casanova/html/fonts/BebasNeueLight.woff"), url("../../casanova/html/fonts/BebasNeueLight.svg"); font-weight: lighter; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueBold.ttf"), url("../../casanova/html/fonts/BebasNeueBold.eot"), url("../../casanova/html/fonts/BebasNeueBold.woff"), url("../../casanova/html/fonts/BebasNeueBold.svg"); font-weight: bold; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueBook.ttf"), url("../../casanova/html/fonts/BebasNeueBook.eot"), url("../../casanova/html/fonts/BebasNeueBook.woff"), url("../../casanova/html/fonts/BebasNeueBook.svg"); font-weight: 300; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeue-Thin.ttf"), url("../../casanova/html/fonts/BebasNeue-Thin.eot"), url("../../casanova/html/fonts/BebasNeue-Thin.woff"), url("../../casanova/html/fonts/BebasNeue-Thin.svg"); font-weight: 100; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeue.ttf"), url("../../casanova/html/fonts/BebasNeue.eot"), url("../../casanova/html/fonts/BebasNeue.woff"), url("../../casanova/html/fonts/BebasNeue.svg"); font-weight: 300; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueRegular.ttf"), url("../../casanova/html/fonts/BebasNeueRegular.eot"), url("../../casanova/html/fonts/BebasNeueRegular.woff"), url("../../casanova/html/fonts/BebasNeueRegular.svg"); font-weight: normal; }
+
+/*NAVBAR HEADER*/
+nav { min-height: 100px; background-color: #FFFFFF; }
+
+.text-header { font-size: 20px; line-height: 28px; text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.67); color: #B0AEB3; text-transform: uppercase; margin-right: 34px; }
+
+.navbar-nav li:last-child { margin-right: 0px; }
+
+.navbar-light .navbar-toggler { border: 0; }
+
+/*END NAVBAR HEADER*/
+.no-padding { padding: 0 !important; }
+
+/*SECTION HERO*/
+#hero { position: relative; min-height: 86vh; border-top: 1px solid #F9B03D; /*END SECTION HERO*/ }
+
+#hero .hero-sliders .slider { position: relative; min-height: 86vh; background-color: #FFFFFF; width: 100%; }
+
+#hero .hero-sliders .slider .img-slider { background-size: cover; height: 86vh; }
+
+#hero .hero-sliders .slider .cont-title { padding-top: 150px; }
+
+#hero .hero-sliders .slider .title { position: relative; font-size: 4.16667vw; font-family: 'BaseNeue'; font-weight: bold; color: #FFFFFF; text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.3); border-left: 6px solid #F9B03D; padding-left: 10px; }
+
+#hero .hero-sliders .slider .sub-title { font-size: 21px; font-family: 'BaseNeue'; font-weight: normal; color: #FFFFFF; line-height: 1.33; letter-spacing: normal; text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.23); margin-bottom: 27px; }
+
+#hero .hero-sliders .slider .btn-hero { font-size: 21px; font-family: 'BaseNeue'; font-weight: normal; padding: 10px 20px; color: #FFFFFF; }
+
+#hero .hero-sliders .slick-dots { text-align: center; bottom: 30px; }
+
+#hero .hero-sliders .slick-dots li { display: inline-block; margin: 10px; }
+
+#hero .hero-sliders .slick-dots li button { border: 0; border-radius: 50%; background-color: #FFF; box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5); }
+
+#hero .hero-sliders .slick-dots li button:before { font-size: 16px; top: 1px; color: transparent; }
+
+#hero .hero-sliders .slick-dots li.slick-active button:before { color: #F9B03D; }
+
+#hero .circle { display: inline-block; margin: 0 !important; height: 50px; width: 50px; background-color: #FFFFFF; vertical-align: middle; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=47, Direction=72, Color=#4F4F4F)"; box-shadow: -7px 21px 47px -11px rgba(79, 79, 79, 0.8); }
+
+#hero .cont-link { position: absolute; bottom: 20px; left: 120px; }
+
+#hero .cont-link div { display: inline-block; margin-left: 10px; color: #FFFFFF; font-weight: lighter; }
+
+/*SECTION2*/
+#section-2 { background-image: url("../../../themes/casanova/html/images/group-243-copy.svg"); background-size: 81%; background-position-x: right; background-repeat: no-repeat; background-color: #f5f5f5; margin-top: -30px; padding-top: 70px; padding-bottom: 70px; }
+
+#section-2 h1 { margin-left: 56px; font-family: 'BaseNeue'; font-size: 45px; font-weight: bold; text-transform: uppercase; color: #f9b03d; }
+
+#section-2 .content-slider-2 { text-align: center; width: 63.54167vw; min-height: 296px; background-color: #FFFFFF; margin: 0 auto; box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.05); border-bottom-left-radius: 40px; border-top-right-radius: 40px; }
+
+/*END SECTION2*/
+@media only screen and (min-width: 1440px) { .footer { background-image: url("../../themes/Opal/images/footer-bg.png"); background-size: cover; }
+  .footer .content-footer { padding: 208px 0 60px; } }
+
+@media only screen and (max-width: 767px) { nav { min-height: auto; }
+  #hero .hero-sliders .slider { min-height: 90vh; }
+  #hero .hero-sliders .slider .img-slider { min-height: 92vh; }
+  #hero .hero-sliders .slider .cont-title { padding-top: 60px; }
+  #hero .hero-sliders .slider .title { font-size: 13.88889vw; }
+  #hero .hero-sliders .slider .btn-hero { padding: 10px 59px; }
+  #hero .hero-sliders .slick-dots { display: none !important; } }

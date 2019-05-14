@@ -4,7 +4,7 @@
             <div class="img-slider" style="background-image:url('images/art-big-data-blur-373543.jpg')">
                 <div class="container">
                     <div class="row align-items-center">
-                    <div class="col-sm-12 col-lg-9 cont-title">
+                    <div class="col-sm-12 col-md-6 col-lg-9 cont-title">
                         <h1 class="title">Somos Soluciones Energéticas para tu mercado</h1>
                         <div class="col-sm-12 col-lg-7">
                             <h3 class="sub-title">Contamos con un amplio catálogo de productos que se ajustaran a tu necesidad industrial</h3>

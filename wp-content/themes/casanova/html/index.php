@@ -22,6 +22,7 @@
     </div>
     <?php include('hero.php'); ?>
     <?php include('empresa.php'); ?>
+    <?php include('mision-vision.php'); ?>
     <?php include('equipo.php');?>
     <?php include('contacto.php');?>
     </body>

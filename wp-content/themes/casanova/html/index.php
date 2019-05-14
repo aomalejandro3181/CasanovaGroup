@@ -21,6 +21,7 @@
         <?php include('header.php'); ?>
     </div>
     <?php include('hero.php'); ?>
+    <?php include('empresa.php'); ?>
     <?php include('equipo.php');?>
     <?php include('contacto.php');?>
     </body>

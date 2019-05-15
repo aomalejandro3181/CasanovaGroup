@@ -1,0 +1,176 @@
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueLight.ttf"), url("../../casanova/html/fonts/BebasNeueLight.eot"), url("../../casanova/html/fonts/BebasNeueLight.woff"), url("../../casanova/html/fonts/BebasNeueLight.svg"); font-weight: lighter; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueBold.ttf"), url("../../casanova/html/fonts/BebasNeueBold.eot"), url("../../casanova/html/fonts/BebasNeueBold.woff"), url("../../casanova/html/fonts/BebasNeueBold.svg"); font-weight: bold; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueBook.ttf"), url("../../casanova/html/fonts/BebasNeueBook.eot"), url("../../casanova/html/fonts/BebasNeueBook.woff"), url("../../casanova/html/fonts/BebasNeueBook.svg"); font-weight: 300; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeue-Thin.ttf"), url("../../casanova/html/fonts/BebasNeue-Thin.eot"), url("../../casanova/html/fonts/BebasNeue-Thin.woff"), url("../../casanova/html/fonts/BebasNeue-Thin.svg"); font-weight: 100; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeue.ttf"), url("../../casanova/html/fonts/BebasNeue.eot"), url("../../casanova/html/fonts/BebasNeue.woff"), url("../../casanova/html/fonts/BebasNeue.svg"); font-weight: 300; }
+
+@font-face { font-family: 'BaseNeue'; src: url("../../casanova/html/fonts/BebasNeueRegular.ttf"), url("../../casanova/html/fonts/BebasNeueRegular.eot"), url("../../casanova/html/fonts/BebasNeueRegular.woff"), url("../../casanova/html/fonts/BebasNeueRegular.svg"); font-weight: normal; }
+
+/* imagen de section equipo*/
+#equipo{
+	background-image: url(images/group-243.png);
+	width: 1440px;
+	height: 636px;
+	padding-top: 80px;
+}
+
+.estilo-p{
+
+  font-family: BebasNeue;
+  font-size: 23px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #f9b03d;
+  margin-bottom: 30px;
+}
+.estilo-h2{
+
+  font-family: BebasNeue;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.estilo-h3{
+  font-family: BebasNeue;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+}
+/*fondo section contacto*/	
+
+#contacto{ 
+	background-color: #ffffff;
+	width: 1440px; 
+	height: 523px;
+	
+}
+
+#titulo{
+
+	font-family: BebasNeue;
+	font-size: 45px;
+	color:#f9b03d;
+}
+#contacto{
+  background-color: #ffffff;
+   width: 1440px;
+   height: 595px;
+   padding-top: 70px;
+}
+input{
+	margin-top: 10px;
+}
+#correo,#asunto{
+	width: 491px;
+	height: 38px;
+	border: solid 1px #002757;
+}
+#nombre,#apellido,#empresa,#telefono{
+	width: 245px;
+	height: 38px;
+	border: solid 1px #002757;
+	
+}
+#mensaje{
+	width: 491px;
+	height: 113px;
+	border-radius: 27.5px;
+	border: solid 1px #002757;
+}
+#enviar{
+  width: 207px;
+  height: 46px;
+  border-radius: 27.5px;
+  border: solid 1px #002757;
+  color: #002757;
+}
+@media (min-width: 1440px){
+	   #nombre,#apellido,#empresa,#telefono,#correo,#asunto{
+		width: 491px;
+	    height: 38px;
+	    display: block;
+
+	}
+	
+	.estilo-h3{
+		font-size: 10px;
+	}
+
+}
+@media (max-width:420px){
+	#nombre,#apellido,#empresa,#telefono,#correo,#asunto{
+		width: 241px;
+	    height: 38px;
+	    display: block;
+   }
+    #mensaje{
+	width: 241px;
+	height: 113px;
+  }
+  #enviar{
+	width: 207px;
+	height: 47px;
+  }
+  #equipo{
+	background-color: #002757;
+	width: 375px;
+	height: 735px;
+	
+	
+	}
+	.estilo-h3{
+		font-size:12px;
+	}
+	.estilo-h2{
+		font-size:25px;
+	}
+	.estilo-p{
+		font-size: 12px;
+	}
+}
+/*@media (min-width:320px){
+	#nombre,#apellido,#empresa,#telefono,#correo,#asunto{
+		width: 241px;
+	    height: 38px;
+	    display: block;
+  }
+    #mensaje{
+	width: 241px;
+	height: 113px;
+}
+  #equipo{
+	background-color: #002757;
+	width: 375px;
+	height: 735px;
+	
+	
+	}
+	.estilo-h3{
+		font-size:12px;
+	}
+	.estilo-h2{
+		font-size:25px;
+	}
+	.estilo-p{
+		font-size: 12px;
+	}
+	#contacto{ 
+	background-color: #ffffff;
+	width: 375px; 
+	height: 737px;
+	
+  }
+}*/
+

@@ -1,44 +1,44 @@
-<section class="container-fluid bg-secondary">
+<section id="equipo"class="container-fluid">
 	<div class="row justify-content-center ">
-	  <article class="col-9 ">
-	  	<h2 class="text-white">Equipo</h2></BR>
+	  <article class="col-10 ">
+	  	<h2 class="estilo-h2">Equipo</h2></BR></BR>
 	   </article>
 	      <article class="w-100"></article>
-	    <article class="col-9">
-	     	<h3 class="text-white">
-	     	|HUGO CASANOVA</h3>
-	  	    <p class="text-warning">
+	    <article class="col-10">
+	     	<p class="estilo-h3">
+	     	|HUGO CASANOVA</p>
+	  	    <p class="estilo-p">
 	  	    &nbsp;&nbsp;CEO</P>
          </article>
 	</div>
 	<div class="row justify-content-center">
 		<article class="col-4">
-			<h3 class="text-white">
-			|ALEXANDER CORDERO</h3>
-			<p class="text-warning">
+			<p  class="estilo-h3">
+			|ALEXANDER CORDERO</p>
+			<p class="estilo-p">
 			&nbsp;&nbsp;DIRECTOR COMERCIAL</br>
 		    &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
 		</article>
-		<article class="col-5">
-			<h3 class="text-white">
-			|RODRIGO TRONCOSO</h3>
-			<p class="text-warning">
+		<article id="rp" class="col-6">
+			<p class="estilo-h3">
+			|RODRIGO TRONCOSO</p>
+			<p class="estilo-p">
 			&nbsp;&nbsp;DIRECTOR DE OPERECIONES</br>
 		    &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
 		</article>
 	</div>	
 	<div class="row justify-content-center">
 		<article class="col-4">
-			<h3 class="text-white">
-			|CESAR MENA</h3>
-			<p class="text-warning">
+			<p class="estilo-h3">
+			|CESAR MENA</p>
+			<p class="estilo-p">
 			&nbsp;&nbsp;GERENTE GENERAL</br>
 		    &nbsp;&nbsp;CASANOVA INTERNACIONAL, LLC</P>
 		</article>
-		<article class="col-5">
-			<h3 class="text-white">
-			|VIVIANA CASANOVA</h3>
-			<p class="text-warning">
+		<article id="rp" class="col-6">
+			<p class="estilo-h3">
+			|VIVIANA CASANOVA</p>
+			<p class="estilo-p">
 			&nbsp;&nbsp;DIRECTORA GENERAL</br>
 		    &nbsp;&nbsp;CASANOVA INTERNACIONAL EUROPA, S.L</P>
 		</article>

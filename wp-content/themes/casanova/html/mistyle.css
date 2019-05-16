@@ -54,21 +54,17 @@
 	background-color: #ffffff;
 	width: 1440px; 
 	height: 523px;
+	padding-top: 70px;
 	
 }
 
-#titulo{
+#titulo-c{
 
 	font-family: BebasNeue;
 	font-size: 45px;
 	color:#f9b03d;
 }
-#contacto{
-  background-color: #ffffff;
-   width: 1440px;
-   height: 595px;
-   padding-top: 70px;
-}
+
 input{
 	margin-top: 10px;
 }
@@ -76,16 +72,20 @@ input{
 	width: 491px;
 	height: 38px;
 	border: solid 1px #002757;
+	padding-left: 15px;
 }
 #nombre,#apellido,#empresa,#telefono{
 	width: 245px;
 	height: 38px;
 	border: solid 1px #002757;
+	padding-left: 15px;
 	
 }
 #mensaje{
 	width: 491px;
 	height: 113px;
+	padding-left: 15px;
+	padding-bottom: 60px;
 	border-radius: 27.5px;
 	border: solid 1px #002757;
 }
@@ -114,14 +114,21 @@ input{
 		width: 241px;
 	    height: 38px;
 	    display: block;
+	    margin-left: 20px;
+	    padding-left: 10px;
    }
     #mensaje{
 	width: 241px;
 	height: 113px;
+	margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 60px;
   }
   #enviar{
 	width: 207px;
 	height: 47px;
+	margin-left: 20px;
+
   }
   #equipo{
 	background-color: #002757;
@@ -130,14 +137,28 @@ input{
 	
 	
 	}
+	#contacto{
+	 width: 375px;
+     height: 737px;
+     background-color: #ffffff;
+     margin-bottom: 71px;
+
+	}
 	.estilo-h3{
 		font-size:12px;
 	}
 	.estilo-h2{
-		font-size:25px;
+		font-size:15px;
 	}
 	.estilo-p{
 		font-size: 12px;
+	}
+	#titulo-c{
+	 font-size: 30px;
+	 margin-left: 20px;
+	}
+	input{
+
 	}
 }
 /*@media (min-width:320px){

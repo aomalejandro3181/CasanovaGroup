@@ -1,7 +1,7 @@
 <div id="contacto" class="container-fluid">
 	<div class="row justify-content-center">
 		<div class="col-xs-12 col-sm-10 col-md-9 col-lg-9">
-			<p>Contacto</p>
+			<p id="titulo-c">Contacto</p>
 			<input id="correo" class="border border-secondary rounded-pill" type="email" name="Correo" placeholder="Correo"></div>
 	</div>
 	<div class="row justify-content-center">

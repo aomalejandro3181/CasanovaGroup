@@ -7,41 +7,35 @@
 /*  License: Copy Right                       */
 /*                                            */
 @font-face {
-  font-family: 'BaseNeue';
-  src: url("../../casanova/html/fonts/BebasNeueLight.ttf"), url("../../casanova/html/fonts/BebasNeueLight.eot"), url("../../casanova/html/fonts/BebasNeueLight.woff"), url("../../casanova/html/fonts/BebasNeueLight.svg");
+  font-family: "BaseNeue";
+  src: url("../html5-boilerplate/fonts/BebasNeueLight.ttf"), url("../html5-boilerplate/fonts/BebasNeueLight.eot"), url("../html5-boilerplate/fonts/BebasNeueLight.woff"), url("../html5-boilerplate/fonts/BebasNeueLight.svg");
   font-weight: lighter; }
-
 @font-face {
-  font-family: 'BaseNeue';
-  src: url("../../casanova/html/fonts/BebasNeueBold.ttf"), url("../../casanova/html/fonts/BebasNeueBold.eot"), url("../../casanova/html/fonts/BebasNeueBold.woff"), url("../../casanova/html/fonts/BebasNeueBold.svg");
+  font-family: "BaseNeue";
+  src: url("../html5-boilerplate/fonts/BebasNeueBold.ttf"), url("../html5-boilerplate/fonts/BebasNeueBold.eot"), url("../html5-boilerplate/fonts/BebasNeueBold.woff"), url("../html5-boilerplate/fonts/BebasNeueBold.svg");
   font-weight: bold; }
-
 @font-face {
-  font-family: 'BaseNeue';
-  src: url("../../casanova/html/fonts/BebasNeueBook.ttf"), url("../../casanova/html/fonts/BebasNeueBook.eot"), url("../../casanova/html/fonts/BebasNeueBook.woff"), url("../../casanova/html/fonts/BebasNeueBook.svg");
+  font-family: "BaseNeue";
+  src: url("../html5-boilerplate/fonts/BebasNeueBook.ttf"), url("../html5-boilerplate/fonts/BebasNeueBook.eot"), url("../html5-boilerplate/fonts/BebasNeueBook.woff"), url("../html5-boilerplate/fonts/BebasNeueBook.svg");
   font-weight: 300; }
-
 @font-face {
-  font-family: 'BaseNeue';
-  src: url("../../casanova/html/fonts/BebasNeue-Thin.ttf"), url("../../casanova/html/fonts/BebasNeue-Thin.eot"), url("../../casanova/html/fonts/BebasNeue-Thin.woff"), url("../../casanova/html/fonts/BebasNeue-Thin.svg");
+  font-family: "BaseNeue";
+  src: url("../html5-boilerplate/fonts/BebasNeue-Thin.ttf"), url("../html5-boilerplate/fonts/BebasNeue-Thin.eot"), url("../html5-boilerplate/fonts/BebasNeue-Thin.woff"), url("../html5-boilerplate/fonts/BebasNeue-Thin.svg");
   font-weight: 100; }
-
 @font-face {
-  font-family: 'BaseNeue';
-  src: url("../../casanova/html/fonts/BebasNeue.ttf"), url("../../casanova/html/fonts/BebasNeue.eot"), url("../../casanova/html/fonts/BebasNeue.woff"), url("../../casanova/html/fonts/BebasNeue.svg");
+  font-family: "BaseNeue";
+  src: url("../html5-boilerplate/fonts/BebasNeue.ttf"), url("../html5-boilerplate/fonts/BebasNeue.eot"), url("../html5-boilerplate/fonts/BebasNeue.woff"), url("../html5-boilerplate/fonts/BebasNeue.svg");
   font-weight: 300; }
-
 @font-face {
-  font-family: 'BaseNeue';
-  src: url("../../casanova/html/fonts/BebasNeueRegular.ttf"), url("../../casanova/html/fonts/BebasNeueRegular.eot"), url("../../casanova/html/fonts/BebasNeueRegular.woff"), url("../../casanova/html/fonts/BebasNeueRegular.svg");
+  font-family: "BaseNeue";
+  src: url("../html5-boilerplate/fonts/BebasNeueRegular.ttf"), url("../html5-boilerplate/fonts/BebasNeueRegular.eot"), url("../html5-boilerplate/fonts/BebasNeueRegular.woff"), url("../html5-boilerplate/fonts/BebasNeueRegular.svg");
   font-weight: normal; }
-
-/*NAVBAR HEADER*/
+/*NAVBAR HEADER */
 nav {
   min-height: 100px;
   background-color: #FFFFFF; }
 
-.text-header {
+.menu-item {
   font-size: 20px;
   line-height: 28px;
   text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.67);
@@ -49,22 +43,28 @@ nav {
   text-transform: uppercase;
   margin-right: 34px; }
 
+.navbar-nav li hr {
+  border: 0; }
 .navbar-nav li:last-child {
   margin-right: 0px; }
+.navbar-nav a {
+  font-family: "BaseNeue";
+  font-weight: normal;
+  color: inherit !important; }
 
 .navbar-light .navbar-toggler {
   border: 0; }
 
-/*END NAVBAR HEADER*/
+/*END NAVBAR HEADER */
 .no-padding {
   padding: 0 !important; }
 
-/*SECTION HERO*/
+/*SECTION HERO */
 #hero {
   position: relative;
   min-height: 86vh;
   border-top: 1px solid #F9B03D;
-  /*END SECTION HERO*/ }
+  /*END SECTION HERO */ }
   #hero .hero-sliders .slider {
     position: relative;
     min-height: 86vh;
@@ -77,8 +77,8 @@ nav {
       padding-top: 150px; }
     #hero .hero-sliders .slider .title {
       position: relative;
-      font-size: 4.16667vw;
-      font-family: 'BaseNeue';
+      font-size: 4.1666666667vw;
+      font-family: "BaseNeue";
       font-weight: bold;
       color: #FFFFFF;
       text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.3);
@@ -86,7 +86,7 @@ nav {
       padding-left: 10px; }
     #hero .hero-sliders .slider .sub-title {
       font-size: 21px;
-      font-family: 'BaseNeue';
+      font-family: "BaseNeue";
       font-weight: normal;
       color: #FFFFFF;
       line-height: 1.33;
@@ -95,7 +95,7 @@ nav {
       margin-bottom: 27px; }
     #hero .hero-sliders .slider .btn-hero {
       font-size: 21px;
-      font-family: 'BaseNeue';
+      font-family: "BaseNeue";
       font-weight: normal;
       padding: 10px 20px;
       color: #FFFFFF; }
@@ -124,6 +124,8 @@ nav {
     background-color: #FFFFFF;
     vertical-align: middle;
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=47, Direction=72, Color=#4F4F4F)";
+    -moz-box-shadow: -7px 21px 47px -11px rgba(79, 79, 79, 0.8);
+    -webkit-box-shadow: -7px 21px 47px -11px rgba(79, 79, 79, 0.8);
     box-shadow: -7px 21px 47px -11px rgba(79, 79, 79, 0.8); }
   #hero .cont-link {
     position: absolute;
@@ -134,10 +136,17 @@ nav {
       margin-left: 10px;
       color: #FFFFFF;
       font-weight: lighter; }
+    #hero .cont-link i {
+      font-size: 30px;
+      position: relative;
+      color: #002757;
+      top: 25%;
+      left: 31%; }
 
-/*SECTION2*/
+/*SECTION2 */
 #section-2 {
-  background-image: url("../../../themes/casanova/html/images/group-243-copy.svg");
+  position: relative;
+  background-image: url("../html5-boilerplate/images/group-243-copy.svg");
   background-size: 81%;
   background-position-x: right;
   background-repeat: no-repeat;
@@ -148,15 +157,15 @@ nav {
   #section-2 h1 {
     margin-left: 56px;
     margin-bottom: 40px;
-    font-family: 'BaseNeue';
+    font-family: "BaseNeue";
     font-size: 45px;
     font-weight: bold;
     text-transform: uppercase;
     color: #f9b03d; }
   #section-2 .content-slider-2 {
-    padding-top: 4.16667vw;
+    padding-top: 4.1666666667vw;
     text-align: center;
-    width: 63.88889vw;
+    width: 63.8888888889vw;
     min-height: 296px;
     background-color: #FFFFFF;
     margin: 0 auto 0 56px;
@@ -169,7 +178,7 @@ nav {
       #section-2 .content-slider-2 .slider-empresa .slider .img {
         padding-left: 60px; }
       #section-2 .content-slider-2 .slider-empresa .slider .text {
-        font-family: 'BaseNeue';
+        font-family: "BaseNeue";
         font-size: 16px;
         font-weight: normal;
         color: #002757;
@@ -201,7 +210,7 @@ nav {
     #section-2 .dots-slider li {
       display: inline-block;
       color: #FFFFFF;
-      font-family: 'BaseNeue';
+      font-family: "BaseNeue";
       font-weight: bold;
       font-size: 20px;
       margin-top: 6%;
@@ -216,15 +225,16 @@ nav {
     #section-2 .dots-slider li:first-child {
       margin-left: 14px; }
 
-/*END SECTION2*/
-/*MISION VISION*/
+/*END SECTION2 */
+/*MISION VISION */
 #mision {
+  position: relative;
   padding-top: 70px;
   padding-bottom: 70px; }
   #mision .img {
     padding-left: 56px; }
   #mision .title {
-    font-family: 'BaseNeue';
+    font-family: "BaseNeue";
     font-size: 45px;
     font-weight: bold;
     font-style: normal;
@@ -239,14 +249,31 @@ nav {
     font-weight: 300;
     color: #002757; }
 
-/*END MISION VISION*/
+/*END MISION VISION */
+.line {
+  background-color: #f9b03d;
+  width: 10px;
+  height: 100vh;
+  position: absolute;
+  top: -3.3%;
+  margin-left: -17px; }
+
+.circle-line {
+  background: #002757;
+  border: 3px solid #FFFFFF;
+  width: 32px;
+  height: 32px;
+  border-radius: 40px;
+  position: absolute;
+  margin-left: -2%;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.27); }
+
 @media only screen and (min-width: 1440px) {
   .footer {
     background-image: url("../../themes/Opal/images/footer-bg.png");
     background-size: cover; }
     .footer .content-footer {
       padding: 208px 0 60px; } }
-
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #hero {
     min-height: 60vh; }
@@ -255,9 +282,10 @@ nav {
       #hero .hero-sliders .slider .img-slider {
         height: 60vh;
         background-position-x: 57%; }
-  /*SECTION2*/
+
+  /*SECTION2 */
   #section-2 .content-slider-2 {
-    width: 86.58854vw;
+    width: 86.5885416667vw;
     margin: 26px 0 0; }
     #section-2 .content-slider-2 .slider-empresa .slider .text {
       padding-right: 30px; }
@@ -265,11 +293,12 @@ nav {
       width: 241px; }
   #section-2 .dots-slider {
     margin-left: 0; }
-  /* END SECTION2*/ }
 
+  /* END SECTION2 */ }
 @media only screen and (max-width: 767px) {
   nav {
     min-height: auto; }
+
   #hero .hero-sliders .slider {
     min-height: 90vh; }
     #hero .hero-sliders .slider .img-slider {
@@ -277,14 +306,15 @@ nav {
     #hero .hero-sliders .slider .cont-title {
       padding-top: 60px; }
     #hero .hero-sliders .slider .title {
-      font-size: 13.88889vw; }
+      font-size: 13.8888888889vw; }
     #hero .hero-sliders .slider .btn-hero {
       padding: 10px 59px; }
   #hero .hero-sliders .slick-dots {
     display: none !important; }
-  /*SECTION2*/
+
+  /*SECTION2 */
   #section-2 .content-slider-2 {
-    width: 84.16667vw;
+    width: 84.1666666667vw;
     margin: 26px 0 0 16px; }
     #section-2 .content-slider-2 .slider-empresa .slider .text {
       padding-left: 28px;
@@ -294,4 +324,7 @@ nav {
       text-align: -webkit-center; }
   #section-2 .dots-slider {
     margin-left: 26px; }
-  /* END SECTION2*/ }
+
+  /* END SECTION2 */ }
+
+/*# sourceMappingURL=style.css.map */

@@ -18,7 +18,7 @@ get_header(); ?>
                             <h3 class="sub-title">Contamos con un amplio catálogo de productos que se ajustaran a tu necesidad industrial</h3>
                         </div>
                         
-                        <a class="border rounded-pill btn-hero" href="#contactos">Contactanos</a>
+                        <a class="border rounded-pill btn-hero" href="#contacto">Contactanos</a>
                     </div>
                     </div>
                 </div>
@@ -115,71 +115,94 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="container-fluid bg-secondary">
-	<div class="row justify-content-center ">
-	  <article class="col-9 ">
-	  	<h2 class="text-white">Equipo</h2></BR>
-	   </article>
-	      <article class="w-100"></article>
-	    <article class="col-9">
-	     	<h3 class="text-white">
-	     	|HUGO CASANOVA</h3>
-	  	    <p class="text-warning">
-	  	    &nbsp;&nbsp;CEO</P>
-         </article>
-	</div>
-	<div class="row justify-content-center">
-		<article class="col-4">
-			<h3 class="text-white">
-			|ALEXANDER CORDERO</h3>
-			<p class="text-warning">
-			&nbsp;&nbsp;DIRECTOR COMERCIAL</br>
-		    &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
-		</article>
-		<article class="col-5">
-			<h3 class="text-white">
-			|RODRIGO TRONCOSO</h3>
-			<p class="text-warning">
-			&nbsp;&nbsp;DIRECTOR DE OPERECIONES</br>
-		    &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
-		</article>
-	</div>	
-	<div class="row justify-content-center">
-		<article class="col-4">
-			<h3 class="text-white">
-			|CESAR MENA</h3>
-			<p class="text-warning">
-			&nbsp;&nbsp;GERENTE GENERAL</br>
-		    &nbsp;&nbsp;CASANOVA INTERNACIONAL, LLC</P>
-		</article>
-		<article class="col-5">
-			<h3 class="text-white">
-			|VIVIANA CASANOVA</h3>
-			<p class="text-warning">
-			&nbsp;&nbsp;DIRECTORA GENERAL</br>
-		    &nbsp;&nbsp;CASANOVA INTERNACIONAL EUROPA, S.L</P>
-		</article>
-	</div>
+<section id="equipo">
+    <diV  id="caja-equipo" class="container"> 
+   <div class="row">
+     <article class="col-xs-12 col-sm-11 col-md-9 col-lg-10">
+         <h2 class="estilo-h2">EQUIPO</h2>
+      </article>
+         <article class="w-100"></article>
+       <article id="art-p" class=" col-xs-12 col-sm-11 col-md-9 col-lg-10">
+            <p class="estilo-h3">
+            |HUGO CASANOVA</p>
+             <p class="estilo-p">
+             &nbsp;&nbsp;CEO</P>
+        </article>
+   </div>
+   <div class="row">
+       <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
+           <p  class="estilo-h3">
+           |ALEXANDER CORDERO</p>
+           <p class="estilo-p">
+           &nbsp;&nbsp;DIRECTOR COMERCIAL </br>
+           &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
+       </article>
+       <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
+           <p class="estilo-h3">
+           |RODRIGO TRONCOSO</p>
+           <p class="estilo-p">
+           &nbsp;&nbsp;DIRECTOR DE OPERECIONES</br>
+           &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
+       </article>
+       <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
+           <p> </p>
+           <p></P>
+       </article>
+   </div>	
+   <div class="row">
+       <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
+           <p class="estilo-h3">
+           |CESAR MENA</p>
+           <p class="estilo-p">
+           &nbsp;&nbsp;GERENTE GENERAL</br>
+           &nbsp;&nbsp;CASANOVA INTERNACIONAL, LLC</P>
+       </article>
+       <article id="art-p" class="col-xs-12 col-sm-4 col-md-3 col-lg-5">
+           <p class="estilo-h3">
+           |VIVIANA CASANOVA</p>
+           <p class="estilo-p">
+           &nbsp;&nbsp;DIRECTORA GENERAL</br>
+           &nbsp;&nbsp;CASANOVA INTERNACIONAL EUROPA, S.L</P>
+       </article>
+   </div>
+</div>
 </section>
 
-<section class="container-fluid">
-<div class="row justify-content-center">
-	 <div class="col-9">
-	 	<h3 class="text-warning">Contacto</h3>
-	 	<input class="border rounded-pill col-6 border-secondary" type="email" name="correo" placeholder="Correo Electronico"></br>
-	 	<input class="border rounded-pill col-3 border-secondary" type="text" name="Nombre" placeholder="Nombre">
-		<input class="border rounded-pill col-3 border-secondary" type="text" name="Apellido" placeholder="Apellido"></br>
-		<input class="border rounded-pill col-3 border-secondary" type="text" name="Empresa" placeholder="Empresa">
-	    <input class="border rounded-pill col-3 border-secondary" type="number" name="Telefono" placeholder="Telefono"></br>
-	    <input class="border rounded-pill col-6 border-secondary" type="text" name="Asunto" placeholder="Asunto"></br>
-	    <input class="border rounded-pill col-6 border-secondary" type="message" name="Mensaje" placeholder="Mensaje"></br>
-	    <input class="border rounded-pill col-2 bg-white border-primary btn-enviar" type="button" name="Enviar" value="Enviar">
-	 </div>
-		
-		
+<div id="contacto">
+	<div id="caja-contacto" class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-11 col-md-9 col-lg-10 col-xl-10">
+			<p id="titulo-c">CONTACTO</p>
+			<input id="correo" class="col-xs-12 col-sm-11 col-md-9 col-lg-10 col-xl-10 border border-secondary rounded-pill" type="email" name="Correo" placeholder="Correo"></div>
+	</div>
+	<div class="row">
+		<div class="col-12 col-xs-12 col-sm-11 col-md-9 col-lg-10 col-xl-10">
+		<input id="nombre" class=" border border-secondary rounded-pill" type="text" name="nombre" placeholder="Nombre">
+		<input id="apellido" class=" border border-secondary rounded-pill" type="text" name="apellido" placeholder="Apellido">    
+	</div>
+	</div>
+	<div class="row">
+	    <div class="col-12 col-xs-12 col-sm-11 col-md-9 col-lg-10">
+	    	<input id="empresa" class=" border border-secondary rounded-pill" type="text" name="Empresa" placeholder="Empresa">
+	        <input id="telefono" class="border border-secondary rounded-pill" type="number" name="telefono" placeholder="Telefono">
+	    	
+	    </div>
+	</div>
+	<div class="row">
+	   <div class="col-xs-12 col-sm-11 col-md-9 col-lg-10">
+	   	<input id="asunto" class="border border-secondary rounded-pill" type="text" name="asunto" placeholder="Asunto">
+	   </div>
+	</div>
+	<div class="row">
+	   <div class="col-xs-12 col-sm-11 col-md-9 col-lg-10">
+	   	<input id="mensaje" class="border border-secondary " type="mensaje" name="mensaje" placeholder="Mensaje">
+	   </div>
+	</div>
+	<div class="row">
+	   <div class="col-xs-12 col-sm-11 col-md-9 col-lg-10"><input id="enviar" class="" type="submit" name="enviar" value="Enviar"></div>
+	</div>
 </div>
-	
-</section>
+</div>
 <?php //get_sidebar(); ?>
 
 <?php get_footer(); ?>

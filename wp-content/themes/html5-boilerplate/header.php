@@ -37,18 +37,23 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">
-          <img src="http://placehold.it/150x50?text=Logo" alt="">
+          <img src="wp-content/themes/html5-boilerplate/images/logo-casanova.jpg" alt="logo-casanova">
         </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" 
+            data-toggle="collapse" 
+            data-target=".bs-example-navbar-collapse-1" 
+            aria-controls="navbarResponsive bs-example-navbar-collapse-1" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+    <div class="collapse navbar-collapse bs-example-navbar-collapse-1" id="navbarResponsive">
     <?php
         wp_nav_menu( array(
             'theme_location'    => 'primary',
             'depth'             => 1,
             'container'         => 'div',
-            'container_class'   => 'collapse navbar-collapse',
+            'container_class'   => 'collapse navbar-collapse bs-example-navbar-collapse-1',
             'container_id'      => 'bs-example-navbar-collapse-1',
             'menu_class'        => 'nav navbar-nav ml-auto',
             'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',

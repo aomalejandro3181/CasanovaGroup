@@ -1,4 +1,9 @@
 $(document).ready(function(){
+
+    $('#menu-main-menu li').click(function(){
+      $('#navbarResponsive, .bs-example-navbar-collapse-1').collapse('toggle');
+    });
+
     $('.hero-sliders').slick({
       dots: true,
       speed: 800,
@@ -21,11 +26,14 @@ $(document).ready(function(){
       $('.dot-'+currentSlide).removeClass('active');
     });
 
-    var section_2 = $('#section-2').outerHeight();
-    $('#section-2 .line').css('height',parseInt(20+section_2));
+    var la_empresa = $('#la-empresa').outerHeight();
+    $('#la-empresa .line').css('height',parseInt(20+la_empresa));
 
     var mision = $('#mision').outerHeight();
-    $('#mision .line').css('height',parseInt(20+mision));
+    $('#mision .line').css('height',parseInt(26+mision));
+
+    var equipo = $('#equipo').outerHeight();
+    $('#equipo .line').css('height',parseInt(126+equipo));
 
     // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});   

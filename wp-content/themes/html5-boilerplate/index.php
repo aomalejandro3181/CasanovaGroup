@@ -28,7 +28,7 @@ get_header(); ?>
             <div class="img-slider" style="background-image:url('wp-content/themes/html5-boilerplate/images/art-big-data-blur-373543.jpg')">
                 <div class="container">
                     <div class="row align-items-center">
-                    <div class="col-9 cont-title">
+                    <div class="col-sm-12 col-md-6 col-lg-9 cont-title">
                         <h1 class="title">Somos Soluciones Energéticas para tu mercado</h1>
                         <div class="col-lg-7">
                             <h3 class="sub-title">Contamos con un amplio catálogo de productos que se ajustaran a tu necesidad industrial</h3>
@@ -44,7 +44,7 @@ get_header(); ?>
             <div class="img-slider" style="background-image:url('wp-content/themes/html5-boilerplate/images/art-big-data-blur-373543.jpg')">
                 <div class="container">
                     <div class="row align-items-center">
-                    <div class="col-9 cont-title">
+                    <div class="col-sm-12 col-md-6 col-lg-9 cont-title">
                         <h1 class="title">Somos Soluciones Energéticas para tu mercado</h1>
                         <div class="col-lg-7">
                             <h3 class="sub-title">Contamos con un amplio catálogo de productos que se ajustaran a tu necesidad industrial</h3>
@@ -68,7 +68,7 @@ get_header(); ?>
 
 <section id="la-empresa">
     <div class="container">
-    <div class="line d-none d-xl-block"></div>
+    <div class="line one d-none d-xl-block"></div>
     <figure class="circle-line d-none d-xl-block"></figure>
         <h1>la empresa</h1>
         <div class="dots-slider">
@@ -117,6 +117,8 @@ get_header(); ?>
 
 <section id="equipo">
     <diV  id="caja-equipo" class="container"> 
+    <div class="line d-none d-xl-block"></div>
+    <figure class="circle-line equipo d-none d-xl-block"></figure>
    <div class="row">
      <article class="col-xs-12 col-sm-11 col-md-9 col-lg-10">
          <h2 class="estilo-h2">EQUIPO</h2>
@@ -170,38 +172,43 @@ get_header(); ?>
 
 <div id="contacto">
 	<div id="caja-contacto" class="container">
-	<div class="row">
-		<div class="col-xs-12 col-sm-11 col-md-9 col-lg-10 col-xl-10">
-			<p id="titulo-c">CONTACTO</p>
-			<input id="correo" class="col-xs-12 col-sm-11 col-md-9 col-lg-10 col-xl-10 border border-secondary rounded-pill" type="email" name="Correo" placeholder="Correo"></div>
-	</div>
-	<div class="row">
-		<div class="col-12 col-xs-12 col-sm-11 col-md-9 col-lg-10 col-xl-10">
-		<input id="nombre" class=" border border-secondary rounded-pill" type="text" name="nombre" placeholder="Nombre">
-		<input id="apellido" class=" border border-secondary rounded-pill" type="text" name="apellido" placeholder="Apellido">    
-	</div>
-	</div>
-	<div class="row">
-	    <div class="col-12 col-xs-12 col-sm-11 col-md-9 col-lg-10">
-	    	<input id="empresa" class=" border border-secondary rounded-pill" type="text" name="Empresa" placeholder="Empresa">
-	        <input id="telefono" class="border border-secondary rounded-pill" type="number" name="telefono" placeholder="Telefono">
-	    	
-	    </div>
-	</div>
-	<div class="row">
-	   <div class="col-xs-12 col-sm-11 col-md-9 col-lg-10">
-	   	<input id="asunto" class="border border-secondary rounded-pill" type="text" name="asunto" placeholder="Asunto">
-	   </div>
-	</div>
-	<div class="row">
-	   <div class="col-xs-12 col-sm-11 col-md-9 col-lg-10">
-	   	<input id="mensaje" class="border border-secondary " type="mensaje" name="mensaje" placeholder="Mensaje">
-	   </div>
-	</div>
-	<div class="row">
-	   <div class="col-xs-12 col-sm-11 col-md-9 col-lg-10"><input id="enviar" class="" type="submit" name="enviar" value="Enviar"></div>
-	</div>
-</div>
+        <figure class="circle-line last d-none d-xl-block"></figure>
+        <div class="row">
+            <div class="col-xs-12 col-sm-11 col-md-9 col-lg-6 col-xl-6">
+                <p id="titulo-c">CONTACTO</p>
+                <form id='form-contact'>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input id="correo" class="border border-secondary rounded-pill" type="email" name="Correo" placeholder="Correo">
+                            </div>
+                            <div class="col-lg-6 pr-1">
+                                <input id="nombre" class=" border border-secondary rounded-pill" type="text" name="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="col-lg-6  pl-1">
+                                <input id="apellido" class=" border border-secondary rounded-pill" type="text" name="apellido" placeholder="Apellido">
+                            </div>
+                            <div class="col-lg-6 pr-1">
+                                <input id="empresa" class=" border border-secondary rounded-pill" type="text" name="Empresa" placeholder="Empresa">
+                            </div>
+                            <div class="col-lg-6  pl-1">
+                                <input id="telefono" class="border border-secondary rounded-pill" type="number" name="telefono" placeholder="Telefono">
+                            </div>
+                            <div class="col-lg-12">
+                                <input id="asunto" class="border border-secondary rounded-pill" type="text" name="asunto" placeholder="Asunto">
+                            </div>
+                            <div class="col-lg-12">
+                                <input id="mensaje" class="border border-secondary " type="textarea" name="mensaje" placeholder="Mensaje">
+                            </div>
+                            <div class="col-lg-12">
+                                <input id="enviar" class="" type="submit" name="enviar" value="Enviar">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 <?php //get_sidebar(); ?>
 

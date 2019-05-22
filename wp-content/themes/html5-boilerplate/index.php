@@ -66,10 +66,10 @@ get_header(); ?>
     
 </section>
 
-<section id="section-2">
+<section id="la-empresa">
     <div class="container">
-    <div class="line"></div>
-    <figure class="circle-line"></figure>
+    <div class="line d-none d-xl-block"></div>
+    <figure class="circle-line d-none d-xl-block"></figure>
         <h1>la empresa</h1>
         <div class="dots-slider">
             <ul>
@@ -99,10 +99,10 @@ get_header(); ?>
 
 <section id="mision">
     <div class="container">
-    <div class="line"></div>
-    <figure class="circle-line"></figure>
+    <div class="line d-none d-xl-block"></div>
+    <figure class="circle-line d-none d-xl-block"></figure>
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 img">
+            <div class="col-12 col-md-6 col-lg-6 img d-none d-xl-block">
                 <img src="wp-content/themes/html5-boilerplate/images/bitmap.jpg" alt="">
             </div>
             <div class="col-12 col-md-12 col-lg-6">

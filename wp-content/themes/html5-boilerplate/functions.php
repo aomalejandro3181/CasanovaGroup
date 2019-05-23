@@ -125,3 +125,8 @@ function versioned_resource($relative_url){
         'primary' => __( 'Primary Menu', 'Casanova' ),
         'extra-menu' => __( 'Extra Menu' )
     ) );
+
+/**
+ * Import custom types and custom fields
+ */
+    require OP_DIRNAME . "/post-types/settings/settings.php";

@@ -176,7 +176,8 @@ get_header(); ?>
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-9 col-lg-6 col-xl-6">
                 <p id="titulo-c">CONTACTO</p>
-                <form id='form-contact'>
+                <?php echo do_shortcode('[contact-form-7 id="12" title="Contact form 1"]');?>
+                <!-- <form id='form-contact'>
                     <div class="form-group">
                         <div class="row">
                             <div class="col-lg-12">
@@ -205,7 +206,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
     </div>

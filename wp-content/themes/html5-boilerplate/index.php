@@ -4,15 +4,22 @@
  * @subpackage HTML5_Boilerplate
  */
 
-get_header(); ?>
+get_header();
+
+// vars
+$hero_slider = get_field('hero_slider');
+
+var_dump($hero_slider);
+?>
 
 <section id="hero" class="container-fluid no-gutters no-padding">
     <div class="hero-sliders">
+    <?php// if(hero_slider): ?>
         <div class="slider">
             <div class="img-slider" style="background-image:url('wp-content/themes/html5-boilerplate/images/art-big-data-blur-373543.jpg')">
                 <div class="container">
                     <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6 col-lg-9 cont-title">
+                    <div class="col-sm-12 col-md-6 col-lg-9 cont-title"><?php echo $titulo_1;?>
                         <h1 class="title">Somos Soluciones Energéticas para tu mercado</h1>
                         <div class="col-sm-12 col-lg-7">
                             <h3 class="sub-title">Contamos con un amplio catálogo de productos que se ajustaran a tu necesidad industrial</h3>
@@ -117,67 +124,66 @@ get_header(); ?>
 
 <section id="equipo">
     <diV  id="caja-equipo" class="container"> 
-    <div class="line d-none d-xl-block"></div>
-    <figure class="circle-line equipo d-none d-xl-block"></figure>
-   <div class="row">
-     <article class="col-xs-12 col-sm-11 col-md-9 col-lg-10">
-         <h2 class="estilo-h2">EQUIPO</h2>
-      </article>
-         <article class="w-100"></article>
-       <article id="art-p" class=" col-xs-12 col-sm-11 col-md-9 col-lg-10">
-            <p class="estilo-h3">
-            |HUGO CASANOVA</p>
-             <p class="estilo-p">
-             &nbsp;&nbsp;CEO</P>
-        </article>
-   </div>
-   <div class="row">
-       <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
-           <p  class="estilo-h3">
-           |ALEXANDER CORDERO</p>
-           <p class="estilo-p">
-           &nbsp;&nbsp;DIRECTOR COMERCIAL </br>
-           &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
-       </article>
-       <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
-           <p class="estilo-h3">
-           |RODRIGO TRONCOSO</p>
-           <p class="estilo-p">
-           &nbsp;&nbsp;DIRECTOR DE OPERECIONES</br>
-           &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
-       </article>
-       <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
-           <p> </p>
-           <p></P>
-       </article>
-   </div>	
-   <div class="row">
-       <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
-           <p class="estilo-h3">
-           |CESAR MENA</p>
-           <p class="estilo-p">
-           &nbsp;&nbsp;GERENTE GENERAL</br>
-           &nbsp;&nbsp;CASANOVA INTERNACIONAL, LLC</P>
-       </article>
-       <article id="art-p" class="col-xs-12 col-sm-4 col-md-3 col-lg-5">
-           <p class="estilo-h3">
-           |VIVIANA CASANOVA</p>
-           <p class="estilo-p">
-           &nbsp;&nbsp;DIRECTORA GENERAL</br>
-           &nbsp;&nbsp;CASANOVA INTERNACIONAL EUROPA, S.L</P>
-       </article>
-   </div>
-</div>
+        <div class="line d-none d-xl-block"></div>
+        <figure class="circle-line equipo d-none d-xl-block"></figure>
+        <div class="row">
+            <article class="col-xs-12 col-sm-11 col-md-9 col-lg-10">
+                <h2 class="estilo-h2">EQUIPO</h2>
+            </article>
+                <article class="w-100"></article>
+            <article id="art-p" class=" col-xs-12 col-sm-11 col-md-9 col-lg-10">
+                    <p class="estilo-h3">
+                    |HUGO CASANOVA</p>
+                    <p class="estilo-p">
+                    &nbsp;&nbsp;CEO</P>
+                </article>
+        </div>
+        <div class="row">
+            <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
+                <p  class="estilo-h3">
+                |ALEXANDER CORDERO</p>
+                <p class="estilo-p">
+                &nbsp;&nbsp;DIRECTOR COMERCIAL </br>
+                &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
+            </article>
+            <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
+                <p class="estilo-h3">
+                |RODRIGO TRONCOSO</p>
+                <p class="estilo-p">
+                &nbsp;&nbsp;DIRECTOR DE OPERECIONES</br>
+                &nbsp;&nbsp;H CASANOVA REPRESENTACIONES, C.A</P>
+            </article>
+            <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
+                <p> </p>
+                <p></P>
+            </article>
+        </div>	
+        <div class="row">
+            <article id="art-p" class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
+                <p class="estilo-h3">
+                |CESAR MENA</p>
+                <p class="estilo-p">
+                &nbsp;&nbsp;GERENTE GENERAL</br>
+                &nbsp;&nbsp;CASANOVA INTERNACIONAL, LLC</P>
+            </article>
+            <article id="art-p" class="col-xs-12 col-sm-4 col-md-3 col-lg-5">
+                <p class="estilo-h3">
+                |VIVIANA CASANOVA</p>
+                <p class="estilo-p">
+                &nbsp;&nbsp;DIRECTORA GENERAL</br>
+                &nbsp;&nbsp;CASANOVA INTERNACIONAL EUROPA, S.L</P>
+            </article>
+        </div>
+    </div>
 </section>
 
 <div id="contacto">
-	<div id="caja-contacto" class="container">
+    <div id="caja-contacto" class="container">
         <figure class="circle-line last d-none d-xl-block"></figure>
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-9 col-lg-6 col-xl-6">
                 <p id="titulo-c">CONTACTO</p>
-                <?php echo do_shortcode('[contact-form-7 id="12" title="Contact form 1"]');?>
-                <!-- <form id='form-contact'>
+                <form id='form-contact'>
                     <div class="form-group">
                         <div class="row">
                             <div class="col-lg-12">
@@ -206,7 +212,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                </form> -->
+                </form>
             </div>
         </div>
     </div>

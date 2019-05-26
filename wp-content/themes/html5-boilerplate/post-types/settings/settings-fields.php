@@ -3,7 +3,7 @@
    * This document contains the fields used for the General Setting custom type
    */
 
-  add_action( 'cmb2_admin_init', 'cmb2_settings_metaboxes' );
+ // add_action( 'cmb2_admin_init', 'cmb2_settings_metaboxes' );
   
   /***********************************************
    * Define the metabox and field configurations *
@@ -12,10 +12,10 @@
     // Start with an underscore to hide fields from custom fields list
     $prefix = '_settings';
 
-    //Initiation of the metabox "Hero Slider" Section group
-    $cmb_section_1 = new_cmb2_box( array(
-      'id'            => $prefix . '_section_1',
-      'title'         => __( 'Hero Slider', 'casanova' ),
+    //Initiation of the metabox Footer group
+    $cmb_footer = new_cmb2_box( array(
+      'id'            => $prefix . '_footer_group',
+      'title'         => __( 'Footer Setup', 'opal' ),
       'object_types'  => array( 'settings', ),
       'context'       => 'normal',
       'priority'      => 'high',
@@ -23,10 +23,54 @@
       'repeatable'    => true,
       'closed'        => true,
     ) );
-    
+
+    // Powered by
+    $cmb_footer->add_field( array(
+      'name'       => __( 'Powered by label', 'cmb2' ),
+      'id'         => $prefix . '_powered_by',
+      'type'       => 'text',
+      'repeatable' => false,
+      'show_on_cb' => 'cmb2_hide_if_no_cats',
+    ) );
+  
+    // Logo
+    $cmb_footer->add_field( array(
+      'name'       => __( 'Logo', 'cmb2' ),
+      'desc'    => 'Upload an image (.png).',
+      'id'         => $prefix . '_logo',
+      'type'       => 'file',
+      'repeatable' => false,
+      'text'    => array(
+        'add_upload_file_text' => 'Add Logo'
+      ),
+      'query_args' => array(
+        'type' => 'image/png',
+      ),
+      'preview_size' => 'large',
+    ) );
+
+    // Address
+    $cmb_footer->add_field( array(
+      'name'       => __( 'Address', 'cmb2' ),
+      'id'         => $prefix . '_address',
+      'type'       => 'textarea_small',
+      'repeatable' => false,
+    ) );
+
+    //Initiation of the metabox "Opal helps your team be connected" Section group
+    $cmb_section_1 = new_cmb2_box( array(
+      'id'            => $prefix . '_section_1',
+      'title'         => __( 'Opal helps your team be connected Section', 'opal' ),
+      'object_types'  => array( 'settings', ),
+      'context'       => 'normal',
+      'priority'      => 'high',
+      'show_names'    => true,
+      'repeatable'    => true,
+      'closed'        => true,
+    ) );
     // Title
     $cmb_section_1->add_field( array(
-      'name'       => __( 'Title Slide 1', 'cmb2' ),
+      'name'       => __( 'Title', 'cmb2' ),
       'id'         => $prefix . '_title',
       'type'       => 'text',
       'repeatable' => false,
@@ -34,9 +78,9 @@
     ) );
     //Content
     $cmb_section_1->add_field( array(
-      'name'       => __( 'Sub Title 1', 'cmb2' ),
+      'name'       => __( 'Content', 'cmb2' ),
       'id'         => $prefix . '_content',
-      'type'       => 'text',
+      'type'       => 'textarea_small',
       'repeatable' => false,
       'show_on_cb' => 'cmb2_hide_if_no_cats',
     ) );

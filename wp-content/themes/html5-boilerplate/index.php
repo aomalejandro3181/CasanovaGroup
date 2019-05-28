@@ -6,32 +6,52 @@
 
 get_header();
 
-// vars
-$hero_slider = get_field('hero_slider');
+$args = array('post_type' => 'settings');
+$loop = new WP_Query($args);
 
-var_dump($hero_slider);
+if ($loop->have_posts()) :
+    while ($loop->have_posts()) :
+        $loop->the_post();
+        // vars
+        $section_hero_slider = get_field('hero_slider');
+    endwhile;
+//end of the loop.
+else :?>
+    <h1>No posts here!</h1>
+<?php endif;
+
+//print_r($section_hero_slider);
 ?>
-
+<?php wp_reset_postdata(); ?>
 <section id="hero" class="container-fluid no-gutters no-padding">
     <div class="hero-sliders">
-    <?php// if(hero_slider): ?>
+<?php for ($i=1; $i<=3; $i++) {
+    $image = $section_hero_slider['imagen_'.$i];
+    ?>
         <div class="slider">
-            <div class="img-slider" style="background-image:url('wp-content/themes/html5-boilerplate/images/art-big-data-blur-373543.jpg')">
+            <div class="img-slider" style="background-image:url('<?php echo $image['url']; ?>')">
                 <div class="container">
                     <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6 col-lg-9 cont-title"><?php echo $titulo_1;?>
-                        <h1 class="title">Somos Soluciones Energéticas para tu mercado</h1>
+                    <div class="col-sm-12 col-md-6 col-lg-9 cont-title">
+                        <h1 class="title"><?php echo $section_hero_slider['title_'.$i];?></h1>
                         <div class="col-sm-12 col-lg-7">
-                            <h3 class="sub-title">Contamos con un amplio catálogo de productos que se ajustaran a tu necesidad industrial</h3>
+                            <h3 class="sub-title"><?php echo $section_hero_slider['sub_title_'.$i];?></h3>
                         </div>
-                        
-                        <a class="border rounded-pill btn-hero" href="#contacto">Contactanos</a>
+                        <?php
+                        if ($section_hero_slider['boton_visible_'.$i]) {
+                            echo '<a class="border rounded-pill btn-hero" href="'.$section_hero_slider['url_boton_'.$i].'">'.$section_hero_slider['boton_'.$i].'</a>';
+                        }
+                        ?>
                     </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="slider">
+        <?php
+}
+//End for
+?>
+        <!-- <div class="slider">
             <div class="img-slider" style="background-image:url('wp-content/themes/html5-boilerplate/images/art-big-data-blur-373543.jpg')">
                 <div class="container">
                     <div class="row align-items-center">
@@ -62,7 +82,7 @@ var_dump($hero_slider);
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="cont-link d-none d-xl-block">
         <figure class="rounded-circle circle">

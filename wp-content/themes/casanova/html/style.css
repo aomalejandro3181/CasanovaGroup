@@ -1,0 +1,572 @@
+/*                                            */
+/*  Theme Name: Opal                          */
+/*  Author: Teravision                        */
+/*  Author URI: http://teravisiontech.com     */
+/*  Description: Template form Opal project.  */
+/*  Version: 1.0                              */
+/*  License: Copy Right                       */
+/*                                            */
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../../casanova/html/fonts/BebasNeueLight.ttf"), url("../../casanova/html/fonts/BebasNeueLight.eot"), url("../../casanova/html/fonts/BebasNeueLight.woff"), url("../../casanova/html/fonts/BebasNeueLight.svg");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../../casanova/html/fonts/BebasNeueBold.ttf"), url("../../casanova/html/fonts/BebasNeueBold.eot"), url("../../casanova/html/fonts/BebasNeueBold.woff"), url("../../casanova/html/fonts/BebasNeueBold.svg");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../../casanova/html/fonts/BebasNeueBook.ttf"), url("../../casanova/html/fonts/BebasNeueBook.eot"), url("../../casanova/html/fonts/BebasNeueBook.woff"), url("../../casanova/html/fonts/BebasNeueBook.svg");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../../casanova/html/fonts/BebasNeue-Thin.ttf"), url("../../casanova/html/fonts/BebasNeue-Thin.eot"), url("../../casanova/html/fonts/BebasNeue-Thin.woff"), url("../../casanova/html/fonts/BebasNeue-Thin.svg");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../../casanova/html/fonts/BebasNeue.ttf"), url("../../casanova/html/fonts/BebasNeue.eot"), url("../../casanova/html/fonts/BebasNeue.woff"), url("../../casanova/html/fonts/BebasNeue.svg");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../../casanova/html/fonts/BebasNeueRegular.ttf"), url("../../casanova/html/fonts/BebasNeueRegular.eot"), url("../../casanova/html/fonts/BebasNeueRegular.woff"), url("../../casanova/html/fonts/BebasNeueRegular.svg");
+  font-weight: normal;
+}
+
+/*NAVBAR HEADER*/
+nav {
+  min-height: 100px;
+  background-color: #FFFFFF;
+}
+
+.text-header {
+  font-size: 20px;
+  line-height: 28px;
+  text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.67);
+  color: #B0AEB3;
+  text-transform: uppercase;
+  margin-right: 34px;
+}
+
+.navbar-nav li:last-child {
+  margin-right: 0px;
+}
+
+.navbar-light .navbar-toggler {
+  border: 0;
+}
+
+/*END NAVBAR HEADER*/
+.no-padding {
+  padding: 0 !important;
+}
+
+/*SECTION HERO*/
+#hero {
+  position: relative;
+  min-height: 86vh;
+  border-top: 1px solid #F9B03D;
+  /*END SECTION HERO*/
+}
+
+#hero .hero-sliders .slider {
+  position: relative;
+  min-height: 86vh;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+#hero .hero-sliders .slider .img-slider {
+  background-size: cover;
+  height: 86vh;
+}
+
+#hero .hero-sliders .slider .cont-title {
+  padding-top: 150px;
+}
+
+#hero .hero-sliders .slider .title {
+  position: relative;
+  font-size: 4.16667vw;
+  font-family: 'BaseNeue';
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.3);
+  border-left: 6px solid #F9B03D;
+  padding-left: 10px;
+}
+
+#hero .hero-sliders .slider .sub-title {
+  font-size: 21px;
+  font-family: 'BaseNeue';
+  font-weight: normal;
+  color: #FFFFFF;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.23);
+  margin-bottom: 27px;
+}
+
+#hero .hero-sliders .slider .btn-hero {
+  font-size: 21px;
+  font-family: 'BaseNeue';
+  font-weight: normal;
+  padding: 10px 20px;
+  color: #FFFFFF;
+}
+
+#hero .hero-sliders .slick-dots {
+  text-align: center;
+  bottom: 30px;
+}
+
+#hero .hero-sliders .slick-dots li {
+  display: inline-block;
+  margin: 10px;
+}
+
+#hero .hero-sliders .slick-dots li button {
+  border: 0;
+  border-radius: 50%;
+  background-color: #FFF;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#hero .hero-sliders .slick-dots li button:before {
+  font-size: 16px;
+  top: 1px;
+  color: transparent;
+}
+
+#hero .hero-sliders .slick-dots li.slick-active button:before {
+  color: #F9B03D;
+}
+
+#hero .circle {
+  display: inline-block;
+  margin: 0 !important;
+  height: 50px;
+  width: 50px;
+  background-color: #FFFFFF;
+  vertical-align: middle;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=47, Direction=72, Color=#4F4F4F)";
+  -moz-box-shadow: -7px 21px 47px -11px rgba(79, 79, 79, 0.8);
+  -webkit-box-shadow: -7px 21px 47px -11px rgba(79, 79, 79, 0.8);
+  box-shadow: -7px 21px 47px -11px rgba(79, 79, 79, 0.8);
+}
+
+#hero .cont-link {
+  position: absolute;
+  bottom: 20px;
+  left: 120px;
+}
+
+#hero .cont-link div {
+  display: inline-block;
+  margin-left: 10px;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+/*SECTION2*/
+#section-2 {
+  background-image: url("../../../themes/casanova/html/images/group-243-copy.svg");
+  background-size: 81%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+  margin-top: -30px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#section-2 h1 {
+  margin-left: 56px;
+  margin-bottom: 40px;
+  font-family: 'BaseNeue';
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f9b03d;
+}
+
+#section-2 .content-slider-2 {
+  padding-top: 4.16667vw;
+  text-align: center;
+  width: 63.88889vw;
+  min-height: 296px;
+  background-color: #FFFFFF;
+  margin: 0 auto 0 56px;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.05);
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+#section-2 .content-slider-2 .slider-empresa .slider {
+  width: 100%;
+  height: auto;
+}
+
+#section-2 .content-slider-2 .slider-empresa .slider .img {
+  padding-left: 60px;
+}
+
+#section-2 .content-slider-2 .slider-empresa .slider .text {
+  font-family: 'BaseNeue';
+  font-size: 16px;
+  font-weight: normal;
+  color: #002757;
+  text-shadow: 0 2px 34px rgba(0, 0, 0, 0.24);
+  text-align: left;
+  line-height: 1.75;
+  padding-right: 87px;
+}
+
+#section-2 .content-slider-2 .slider-empresa .slick-prev {
+  display: none !important;
+}
+
+#section-2 .content-slider-2 .slider-empresa .slick-next:before {
+  font-size: 46px;
+  margin-left: -27px;
+  opacity: 1;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.27);
+  border-radius: 50%;
+}
+
+#section-2 .dots-slider {
+  background-color: #002757;
+  max-height: 60px;
+  display: inline-block;
+  width: 297px;
+  max-width: 297px;
+  height: auto;
+  margin-bottom: 30px;
+  margin-left: 56px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+#section-2 .dots-slider li {
+  display: inline-block;
+  color: #FFFFFF;
+  font-family: 'BaseNeue';
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 6%;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+#section-2 .dots-slider li figure.active {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#section-2 .dots-slider li:first-child {
+  margin-left: 14px;
+}
+
+/*END SECTION2*/
+/*MISION VISION*/
+#mision {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#mision .img {
+  padding-left: 56px;
+}
+
+#mision .title {
+  font-family: 'BaseNeue';
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  color: #f9b03d;
+  text-transform: uppercase;
+}
+
+#mision .title.marginTop46 {
+  margin-top: 46px;
+}
+
+#mision p {
+  text-shadow: 0 2px 34px rgba(0, 0, 0, 0.24);
+  font-family: STHeitiSC;
+  font-size: 16px;
+  font-weight: 300;
+  color: #002757;
+}
+
+/*END MISION VISION*/
+/*EQUIPO*/
+#equipo {
+  background-image: url(images/group-243.png);
+  background-repeat: no-repeat;
+  background-size: 100% 636px;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#caja-equipo {
+  margin-left: 80px;
+}
+
+.estilo-h2 {
+  width: 80px;
+  height: 60px;
+  font-family: BaseNeue;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.estilo-h3 {
+  width: 210px;
+  height: 15px;
+  font-family: BaseNeue;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.estilo-p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #f9b03d;
+}
+
+#art-p {
+  padding-top: 5px;
+  /*----------FIN DE EQUIPO------------*/
+}
+
+#art-p p {
+  margin-top: 5px;
+}
+
+/*----------------CONTACTO-----------------*/
+#contacto {
+  width: 100%;
+  height: 595px;
+  background-color: #ffffff;
+  padding-bottom: 80px;
+  margin-top: 73px;
+}
+
+#caja-contacto {
+  margin-left: 80px;
+}
+
+#titulo-c {
+  width: 140px;
+  height: 60px;
+  font-family: BaseNeue;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #f9b03d;
+}
+
+#correo, #asunto {
+  width: 490px;
+  height: 38px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+#empresa, #telefono, #nombre, #apellido {
+  height: 38px;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 243px;
+}
+
+#mensaje {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 490px;
+  height: 103px;
+  border-radius: 25.7px;
+  padding-bottom: 50px;
+}
+
+#enviar {
+  width: 207px;
+  height: 46px;
+  margin-top: 10px;
+  border-radius: 27.5px;
+  border: solid 1px #002757;
+  color: #002757;
+}
+
+/*-------------FIN DE CONTACTO-----------------*/
+#footer {
+  width: 100%;
+  height: 87px;
+  background-color: #002757;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer {
+    background-image: url("../../themes/Opal/images/footer-bg.png");
+    background-size: cover;
+  }
+  .footer .content-footer {
+    padding: 208px 0 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #hero {
+    min-height: 60vh;
+  }
+  #hero .hero-sliders .slider {
+    min-height: 60vh;
+  }
+  #hero .hero-sliders .slider .img-slider {
+    height: 60vh;
+    background-position-x: 57%;
+  }
+  /*SECTION2*/
+  #section-2 .content-slider-2 {
+    width: 86.58854vw;
+    margin: 26px 0 0;
+  }
+  #section-2 .content-slider-2 .slider-empresa .slider .text {
+    padding-right: 30px;
+  }
+  #section-2 .content-slider-2 .slider-empresa .slider img {
+    width: 241px;
+  }
+  #section-2 .dots-slider {
+    margin-left: 0;
+  }
+  /* END SECTION2*/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #correo {
+    width: 490px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav {
+    min-height: auto;
+  }
+  #hero .hero-sliders .slider {
+    min-height: 90vh;
+  }
+  #hero .hero-sliders .slider .img-slider {
+    min-height: 92vh;
+  }
+  #hero .hero-sliders .slider .cont-title {
+    padding-top: 60px;
+  }
+  #hero .hero-sliders .slider .title {
+    font-size: 13.88889vw;
+  }
+  #hero .hero-sliders .slider .btn-hero {
+    padding: 10px 59px;
+  }
+  #hero .hero-sliders .slick-dots {
+    display: none !important;
+  }
+  /*SECTION2*/
+  #section-2 .content-slider-2 {
+    width: 84.16667vw;
+    margin: 26px 0 0 16px;
+  }
+  #section-2 .content-slider-2 .slider-empresa .slider .text {
+    padding-left: 28px;
+    padding-right: 29px;
+  }
+  #section-2 .content-slider-2 .slider-empresa .slider img {
+    width: 241px;
+    text-align: -webkit-center;
+  }
+  #section-2 .dots-slider {
+    margin-left: 26px;
+  }
+  /* END SECTION2*/
+  /*EQUIPO*/
+  #equipo {
+    background-image: none;
+    background-color: #002757;
+    width: 375px;
+    height: 734px;
+  }
+  #caja-equipo, #caja-contacto {
+    margin-left: 10px;
+  }
+  .estilo-h2 {
+    font-size: 35px;
+  }
+  .estilo-h3 {
+    font-size: 30px;
+  }
+  .estilo-p {
+    font-size: 15px;
+  }
+  /*--------fin de equipo--------*/
+  /*---------CONTACTO-----------*/
+  #contacto {
+    width: 375px;
+    height: 734px;
+  }
+  #correo, #asunto, #mensaje {
+    width: 241px;
+  }
+  #footer {
+    width: 375px;
+    height: 101px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  #equipo {
+    background-color: #002757;
+    width: 640px;
+    height: 1238px;
+  }
+  .estilo-h2 {
+    width: 220px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  #art-p {
+    margin-left: 80px;
+  }
+  .estilo-p {
+    font-size: 13px;
+    width: 250px;
+  }
+}

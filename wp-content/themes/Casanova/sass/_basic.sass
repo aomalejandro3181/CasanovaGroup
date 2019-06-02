@@ -1,0 +1,370 @@
+#btn-hero
+    color: $white !important
+    /*NAVBAR HEADER*/
+nav
+    min-height: 100px
+    background-color: $white
+    padding: 0 !important
+    border-bottom: 2px solid $orange
+.menu-item
+    font-size: 20px
+    line-height: 28px
+    text-shadow: 0 2px 34px 0 rgba(0,0,0,0.67)
+    color: $gray
+    text-transform: uppercase
+    margin-right: 34px
+.navbar-nav
+    li
+        hr
+            border: 0
+    li:last-child
+        margin-right: 0px
+    a
+        font-family: 'BaseNeue'
+        font-weight: normal
+        color: inherit !important
+.navbar-light .navbar-toggler
+    border: 0
+/*END NAVBAR HEADER*/
+
+.no-padding
+    padding: 0 !important
+/*SECTION HERO*/
+#hero
+    position: relative
+    min-height: 86vh
+    margin-top: 100px
+    .hero-sliders
+        .slider
+            position: relative
+            min-height: 86vh
+            background-color: $white
+            width: 100% 
+            .img-slider
+                background-size: cover
+                height: 86vh
+            .cont-title
+                padding-top: 150px
+            .title
+                position: relative
+                font-size: get-vw-desktop(60px)
+                font-family: 'BaseNeue'
+                font-weight: bold
+                color: $white
+                text-shadow: 0 2px 34px 0 rgba(0,0,0,0.3)
+                border-left: 6px solid #F9B03D
+                padding-left: 10px
+            .sub-title
+                font-size: 21px
+                font-family: 'BaseNeue'
+                font-weight: normal
+                color: $white
+                line-height: 1.33
+                letter-spacing: normal
+                text-shadow: 0 2px 34px 0 rgba(0,0,0,0.23)
+                margin-bottom: 27px
+            .btn-hero
+                font-size: 21px
+                font-family: 'BaseNeue'
+                font-weight: normal
+                padding: 10px 20px
+                color: $white
+        .slick-dots
+            text-align: center
+            bottom: 30px
+            li
+                display: inline-block
+                margin: 10px
+                button
+                    border: 0
+                    border-radius: 50%
+                    background-color: #FFF
+                    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5)
+                button:before
+                    font-size: 49px
+                    top: -2px
+                    color: transparent
+            li.slick-active
+                button:before
+                    color: #F9B03D
+    .circle
+        display: inline-block
+        margin: 0 !important
+        height: 50px
+        width: 50px
+        background-color: #FFFFFF
+        vertical-align: middle
+        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=47, Direction=72, Color=#4F4F4F)"//IE 8*/
+        -moz-box-shadow: -7px 21px 47px -11px rgba(79,79,79,0.8)//FF 3.5+*/
+        -webkit-box-shadow: -7px 21px 47px -11px rgba(79,79,79,0.8)//Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+        box-shadow: -7px 21px 47px -11px rgba(79,79,79,0.8)//FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    .cont-link
+        position: absolute
+        bottom: 20px
+        left: 120px
+        div
+            display: inline-block
+            margin-left: 10px
+            color: $white
+            font-weight: lighter
+        i
+            font-size: 30px
+            position: relative
+            color: $blue
+            top: 25%
+            left: 31%
+
+    /*END SECTION HERO*/
+/*SECTION2*/
+#la-empresa
+    position: relative
+    background-image: url('../html5-boilerplate/images/group-243-copy.svg')
+    background-size: cover
+    background-position-x: right
+    background-repeat: no-repeat
+    background-color: $gray-light
+    margin-top: -30px
+    padding-top: 100px
+    padding-bottom: 70px
+    h1
+        margin-left: 56px
+        margin-bottom: 40px
+        font-family: 'BaseNeue'
+        font-size: 45px
+        font-weight: bold
+        text-transform: uppercase
+        color: $orange
+    .content-slider-2
+        padding-top: get-vw-desktop(60px)
+        text-align: center
+        width: get-vw-desktop(920px)
+        min-height: 296px
+        background-color: $white
+        margin: 0 auto 0 56px
+        box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.05)
+        border-bottom-left-radius: 40px
+        border-top-right-radius: 40px
+        .slider-empresa
+            .slider
+                width: 100%
+                height: auto
+                .img
+                    padding-left: 60px
+                .text
+                    font-family: 'BaseNeue'
+                    font-size: 16px
+                    font-weight: normal
+                    color: $blue
+                    /* text-shadow: 0 2px 34px rgba(0, 0, 0, 0.24) */
+                    text-align: left
+                    line-height: 1.75
+                    padding-right: 87px
+            .slick-prev
+                display: none !important
+            /* .slick-next:before
+                font-size: 46px
+                margin-left: -27px
+                opacity: 1
+                box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.27)
+                border-radius: 50% */
+    .dots-slider
+        background-color: $blue
+        max-height: 60px
+        display: inline-block
+        width: 297px
+        max-width: 297px
+        height: auto
+        margin-bottom: 30px
+        margin-left: 56px
+        border-top-right-radius: 40px
+        border-bottom-right-radius: 40px
+        border-top-left-radius: 40px
+        border-bottom-left-radius: 40px
+        li
+            display: inline-block
+            color: $white
+            font-family: 'BaseNeue'
+            font-weight: bold
+            font-size: 20px
+            margin-top: 6%
+            text-transform: uppercase
+            margin-right: 20px
+            figure.active
+                width: 6px
+                height: 6px
+                background-color: white
+                border-radius: 50%
+                margin: 0 auto
+        li:first-child
+            margin-left: 14px
+/*END SECTION2*/
+/*MISION VISION*/
+#mision
+    position: relative
+    padding-top: 100px
+    padding-bottom: 70px
+    .img
+        padding-left: 56px 
+    .title
+        font-family: 'BaseNeue'
+        font-size: 45px
+        font-weight: bold
+        font-style: normal
+        color: $orange
+        text-transform: uppercase
+    .title.marginTop46
+        margin-top: 46px
+    p
+        /* text-shadow: 0 2px 34px rgba(0, 0, 0, 0.24) */
+        font-family: 'BaseNeue'
+        font-weight: normal 
+        font-size: 16px
+        color: $blue
+/*END MISION VISION*/
+.line
+    background-color: $orange
+    width: 10px
+    height: 100vh
+    position: absolute
+    top: -3.3%
+    left: 140px
+.circle-line
+    background: $blue
+    border: 3px solid $white
+    width: 32px
+    height: 32px
+    border-radius: 40px
+    position: absolute
+    left: 130px
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.27)
+.circle-line.last
+    left: 48px
+    top: 5px
+.circle-line.equipo
+    background: $orange
+    border: 3px solid $white
+    top: 18%
+.slick-next
+    width: 46px
+    height: 46px
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.27)
+    background-color: #ffffff
+    border-radius: 40px
+
+/*EQUIPO*/
+#equipo
+    background-image: url(images/group-243.png)
+    background-repeat: no-repeat
+    background-size: initial
+    position: relative
+    background-position-x: -57%
+    background-color: $blue
+    padding-top: 100px
+    padding-bottom: 80px
+
+/* #caja-equipo
+    margin-left: 80px */
+
+.estilo-h2
+    width: 80px
+    height: 60px
+    font-family: BaseNeue
+    font-size: 45px
+    font-weight: bold
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.33
+    letter-spacing: normal
+    color: #ffffff
+    margin-left: 56px
+
+.estilo-h3
+    width: 210px
+    height: 15px
+    font-family: BaseNeue
+    font-size: 30px
+    font-weight: bold
+    font-style: normal
+    font-stretch: normal
+    line-height: 1
+    letter-spacing: normal
+    color: #ffffff
+
+.estilo-p
+    font-size: 18px
+    font-weight: normal
+    color: #f9b03d
+
+#art-p
+    padding-top: 5px
+    margin-left: 56px
+    p 
+        margin-top: 5px
+
+
+    /*----------FIN DE EQUIPO------------*/
+
+    /*----------------CONTACTO-----------------*/
+
+#contacto
+    width: 100%
+    background-color: #ffffff
+    padding-bottom: 80px
+    padding-top: 7%
+
+#caja-contacto
+    position: relative
+    margin-left: 80px
+
+#titulo-c
+    margin-left: 96px
+    font-family: BaseNeue
+    font-size: 45px
+    font-weight: bold
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.33
+    letter-spacing: normal
+    color: #f9b03d
+
+#correo,#asunto
+    width: 100%
+    //width: 490px
+    height: 38px
+    margin-top: 10px
+    padding-left: 10px
+  
+
+#empresa,#telefono,#nombre,#apellido
+    height: 38px
+    margin-top: 10px
+    padding-left: 10px
+    //width: 243px
+    width: 100%
+
+#mensaje
+    margin-top: 10px
+    padding-left: 10px
+    //width: 490px
+    width: 100%
+    height: 103px
+    border-radius: 25.7px
+    padding-bottom: 50px
+
+#enviar
+    width: 207px
+    height: 46px
+    margin-top: 10px
+    border-radius: 27.5px
+    border: solid 1px #002757
+    color: #002757
+    background-color: transparent
+.form-group
+    margin-left: 96px
+
+/*-------------FIN DE CONTACTO-----------------*/
+
+footer
+    background-color: $blue
+    height: 87px
+    width: 100%

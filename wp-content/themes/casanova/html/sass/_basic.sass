@@ -1,0 +1,206 @@
+/*NAVBAR HEADER*/
+nav
+    min-height: 100px
+    background-color: $white
+.text-header
+    font-size: 20px	
+    line-height: 28px	
+    text-shadow: 0 2px 34px 0 rgba(0,0,0,0.67)
+    color: $gray
+    text-transform: uppercase
+    margin-right: 34px
+.navbar-nav
+    li:last-child
+        margin-right: 0px
+.navbar-light .navbar-toggler
+    border: 0
+/*END NAVBAR HEADER*/
+
+.no-padding
+    padding: 0 !important
+
+/*SECTION HERO*/
+#hero
+    position: relative
+    min-height: 86vh
+    border-top: 1px solid #F9B03D
+    .hero-sliders
+        .slider
+            position: relative
+            min-height: 86vh
+            background-color: $white
+            width: 100%
+            .img-slider
+                background-size: cover;
+                height: 86vh;
+            .cont-title
+                padding-top: 150px
+            .title
+                position: relative
+                font-size: get-vw-desktop(60px)
+                font-family: 'BaseNeue'
+                font-weight: bold
+                color: $white
+                text-shadow: 0 2px 34px 0 rgba(0,0,0,0.3)
+                border-left: 6px solid #F9B03D
+                padding-left: 10px
+            .sub-title
+                font-size: 21px
+                font-family: 'BaseNeue'
+                font-weight: normal
+                color: $white
+                line-height: 1.33
+                letter-spacing: normal
+                text-shadow: 0 2px 34px 0 rgba(0,0,0,0.23)
+                margin-bottom: 27px
+            .btn-hero
+                font-size: 21px
+                font-family: 'BaseNeue'
+                font-weight: normal
+                padding: 10px 20px
+                color: $white
+        .slick-dots
+            text-align: center
+            bottom: 30px
+            li
+                display: inline-block
+                margin: 10px
+                button
+                    border: 0
+                    border-radius: 50%
+                    background-color: #FFF
+                    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5)
+                button:before
+                    font-size: 16px
+                    top: 1px
+                    color: transparent
+            li.slick-active
+                button:before
+                    color: #F9B03D
+    .circle
+        display: inline-block
+        margin: 0 !important
+        height: 50px
+        width: 50px
+        background-color: #FFFFFF
+        vertical-align: middle
+        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=47, Direction=72, Color=#4F4F4F)"//IE 8*/
+        -moz-box-shadow: -7px 21px 47px -11px rgba(79,79,79,0.8)//FF 3.5+*/
+        -webkit-box-shadow: -7px 21px 47px -11px rgba(79,79,79,0.8)//Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+        box-shadow: -7px 21px 47px -11px rgba(79,79,79,0.8)//FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    .cont-link
+        position: absolute
+        bottom: 20px
+        left: 120px
+        div
+            display: inline-block
+            margin-left: 10px
+            color: $white
+            font-weight: lighter
+
+    /*END SECTION HERO*/
+/*SECTION2*/
+#section-2
+    background-image: url('../../../themes/casanova/html/images/group-243-copy.svg')
+    background-size: 81%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: $gray-light
+    margin-top: -30px
+    padding-top: 70px
+    padding-bottom: 70px
+    h1
+        margin-left: 56px
+        margin-bottom: 40px
+        font-family: 'BaseNeue'
+        font-size: 45px
+        font-weight: bold
+        text-transform: uppercase
+        color: $orange
+    .content-slider-2
+        padding-top: get-vw-desktop(60px)
+        text-align: center
+        width: get-vw-desktop(920px)
+        min-height: 296px
+        background-color: $white
+        margin: 0 auto 0 56px
+        box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.05)
+        border-bottom-left-radius: 40px
+        border-top-right-radius: 40px
+        .slider-empresa
+            .slider
+                width: 100%
+                height: auto;
+                .img
+                    padding-left: 60px
+                .text
+                    font-family: 'BaseNeue'
+                    font-size: 16px
+                    font-weight: normal
+                    color: $blue
+                    text-shadow: 0 2px 34px rgba(0, 0, 0, 0.24)
+                    text-align: left
+                    line-height: 1.75
+                    padding-right: 87px
+            .slick-prev
+                display: none !important
+            .slick-next:before
+                font-size: 46px
+                margin-left: -27px
+                opacity: 1
+                box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.27)
+                border-radius: 50%
+    .dots-slider
+        background-color: $blue
+        max-height: 60px
+        display: inline-block
+        width: 297px
+        max-width: 297px
+        height: auto
+        margin-bottom: 30px
+        margin-left: 56px
+        border-top-right-radius: 40px
+        border-bottom-right-radius: 40px
+        border-top-left-radius: 40px
+        border-bottom-left-radius: 40px
+        li
+            display: inline-block
+            color: $white
+            font-family: 'BaseNeue'
+            font-weight: bold
+            font-size: 20px
+            margin-top: 6%
+            text-transform: uppercase
+            margin-right: 20px
+            figure.active
+                width: 6px
+                height: 6px
+                background-color: white
+                border-radius: 50%
+                margin: 0 auto
+        li:first-child
+            margin-left: 14px
+/*END SECTION2*/
+/*MISION VISION*/
+#mision
+    padding-top: 70px
+    padding-bottom: 70px
+    .img
+        padding-left: 56px
+    .title
+        font-family: 'BaseNeue'
+        font-size: 45px
+        font-weight: bold
+        font-style: normal
+        color: $orange
+        text-transform: uppercase
+    .title.marginTop46
+        margin-top: 46px
+    p
+        text-shadow: 0 2px 34px rgba(0, 0, 0, 0.24)
+        font-family: STHeitiSC;
+        font-size: 16px
+        font-weight: 300
+        color: $blue;
+/*END MISION VISION*/
+    

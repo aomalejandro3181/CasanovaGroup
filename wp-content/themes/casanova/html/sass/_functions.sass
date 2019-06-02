@@ -1,0 +1,11 @@
+@function get-vw-desktop($object)
+  $vw: (1440 * 0.01) * 1px
+  @return ($object / $vw) * 1vw
+
+@function get-vw-tablet($object)
+  $vw: (768 * 0.01) * 1px
+  @return ($object / $vw) * 1vw
+
+@function get-vw-mobile($object)
+  $vw: (360 * 0.01) * 1px
+  @return ($object / $vw) * 1vw

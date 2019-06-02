@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../Casanova/fonts/BebasNeueLight.ttf"), url("../Casanova/fonts/BebasNeueLight.eot"), url("../Casanova/fonts/BebasNeueLight.woff"), url("../Casanova/fonts/BebasNeueLight.svg");
+  font-weight: lighter; }
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../Casanova/fonts/BebasNeueBold.ttf"), url("../Casanova/fonts/BebasNeueBold.eot"), url("../Casanova/fonts/BebasNeueBold.woff"), url("../Casanova/fonts/BebasNeueBold.svg");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../Casanova/fonts/BebasNeueBook.ttf"), url("../Casanova/fonts/BebasNeueBook.eot"), url("../Casanova/fonts/BebasNeueBook.woff"), url("../Casanova/fonts/BebasNeueBook.svg");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../Casanova/fonts/BebasNeue-Thin.ttf"), url("../Casanova/fonts/BebasNeue-Thin.eot"), url("../Casanova/fonts/BebasNeue-Thin.woff"), url("../Casanova/fonts/BebasNeue-Thin.svg");
+  font-weight: 100; }
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../Casanova/fonts/BebasNeue.ttf"), url("../Casanova/fonts/BebasNeue.eot"), url("../Casanova/fonts/BebasNeue.woff"), url("../Casanova/fonts/BebasNeue.svg");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'BaseNeue';
+  src: url("../Casanova/fonts/BebasNeueRegular.ttf"), url("../Casanova/fonts/BebasNeueRegular.eot"), url("../Casanova/fonts/BebasNeueRegular.woff"), url("../Casanova/fonts/BebasNeueRegular.svg");
+  font-weight: normal; }

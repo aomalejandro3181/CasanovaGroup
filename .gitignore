@@ -17,8 +17,8 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
-wp-content/themes/html5-boilerplate/.sass-cache
+.sass-cache
 prepros.cfg
 wp-content/themes/prepros.cfg
 prepros.cfg
-prepros.cfg
+prepros-6.config

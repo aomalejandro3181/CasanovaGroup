@@ -92,7 +92,7 @@ function versioned_resource($relative_url){
                 wp_enqueue_script('tether', 'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js', array('jquery'), '', true);
                 wp_enqueue_script('slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', array(), '1');
 
-                wp_enqueue_script('basic_js', get_template_directory_uri() .'/js/basic.js', array('jquery'), '1.0.0', true);
+                wp_enqueue_script('basic_js', get_template_directory_uri() .'/js/basic.min.js', array('jquery'), '1.0.0', true);
                 
                 // Loads css files
                 wp_enqueue_style('bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', array(), '4.3.1');

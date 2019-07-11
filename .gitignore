@@ -23,3 +23,5 @@ wp-content/themes/prepros.cfg
 prepros.cfg
 prepros-6.config
 /.sass-cache
+wp-content/.DS_Store
+.DS_Store

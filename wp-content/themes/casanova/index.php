@@ -110,7 +110,7 @@ $imagen_mision = $section_mision['imagen'];
     <div class="line d-none d-xl-block"></div>
     <figure class="circle-line d-none d-xl-block"></figure>
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 img d-none d-xl-block">
+            <div class="col-12 col-md-6 col-lg-6 img d-none d-lg-block d-xl-block">
                 <img src="<?php echo $imagen_mision['url'];?>" alt="">
             </div>
             <div class="col-12 col-md-12 col-lg-6">
@@ -118,6 +118,8 @@ $imagen_mision = $section_mision['imagen'];
                 <p><?php echo $section_mision['content_1']?></p>
                 <h1 class="title marginTop46"><?php echo $section_mision['title_2']?></h1>
                 <p><?php echo $section_mision['content_2']?></p>
+                <h1 class="title marginTop46"><?php echo $section_mision['title_3']?></h1>
+                <p><?php echo $section_mision['content_3']?></p>
             </div>
         </div>
     </div>

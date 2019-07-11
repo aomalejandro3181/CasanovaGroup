@@ -51,7 +51,6 @@ nav {
 .menu-item {
   font-size: 20px;
   line-height: 28px;
-  text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.67);
   color: #B0AEB3;
   text-transform: uppercase;
   margin-right: 34px;
@@ -104,7 +103,6 @@ nav {
   font-family: "BaseNeue";
   font-weight: bold;
   color: #FFFFFF;
-  text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.3);
   border-left: 6px solid #F9B03D;
   padding-left: 10px;
 }
@@ -115,7 +113,6 @@ nav {
   color: #FFFFFF;
   line-height: 1.33;
   letter-spacing: normal;
-  text-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.23);
   margin-bottom: 27px;
 }
 #hero .hero-sliders .slider .btn-hero {
@@ -163,6 +160,7 @@ nav {
   position: absolute;
   bottom: 20px;
   left: 120px;
+  z-index: 2;
 }
 #hero .cont-link div {
   display: inline-block;
@@ -479,12 +477,15 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #hero {
     min-height: 60vh;
+    height: 62.5vw;
   }
   #hero .hero-sliders .slider {
     min-height: 60vh;
+    height: 62.5vw;
   }
   #hero .hero-sliders .slider .img-slider {
     height: 60vh;
+    height: 62.5vw;
     background-position-x: 57%;
   }
 
@@ -544,13 +545,18 @@ footer {
   }
 
   #la-empresa {
-    background-size: 100%;
+    background-size: cover;
   }
   #la-empresa .content-slider-2 {
     width: 76vw;
   }
   #la-empresa .content-slider-2 .slider-empresa .slider .text {
     padding-right: 20px;
+  }
+
+  #equipo {
+    background-size: cover;
+    background-position: center;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -574,7 +580,7 @@ footer {
     min-height: 92vh;
   }
   #hero .hero-sliders .slider .cont-title {
-    padding-top: 160px;
+    padding-top: 60px;
   }
   #hero .hero-sliders .slider .title {
     font-size: 13.8888888889vw;
@@ -587,6 +593,9 @@ footer {
   }
 
   /*SECTION2*/
+  #la-empresa {
+    background-image: none;
+  }
   #la-empresa .content-slider-2 {
     width: 84.1666666667vw;
     margin: 26px 0 0 16px;
@@ -612,6 +621,15 @@ footer {
 
   /* END SECTION2*/
   /*CONTACTO*/
+  #caja-contacto,
+.form-group,
+#titulo-c,
+.estilo-h2,
+#la-empresa h1,
+#art-p {
+    margin-left: 0px;
+  }
+
   .form-group .form-group .pl-1 {
     padding-left: 15px !important;
     padding-left: 15px !important;

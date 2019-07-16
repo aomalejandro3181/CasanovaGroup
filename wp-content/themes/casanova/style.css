@@ -460,9 +460,25 @@ nav {
 
 /*-------------FIN DE CONTACTO-----------------*/
 footer {
-  background-color: #002757;
-  height: 87px;
+  background-color: #f5f5f5;
   width: 100%;
+}
+footer .title {
+  color: #002757;
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 10px;
+  padding-top: 40px;
+}
+footer .content {
+  color: #002757;
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 25px;
 }
 
 @media only screen and (min-width: 1440px) {

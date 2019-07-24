@@ -17,6 +17,7 @@ if ($loop->have_posts()) :
         $section_empresar       = get_field('section_empresa');
         $section_mision       = get_field('section_mision');
         $section_equipo       = get_field('section_equipo');
+        $section_footer       = get_field('footer');
     endwhile;
 //end of the loop.
 else :?>
@@ -179,44 +180,32 @@ $imagen_mision = $section_mision['imagen'];
         </div>
     </div>
 </section>
-
+<?php
+$bandera = $section_footer['bandera'];
+$bandera_2 = $section_footer['bandera_2'];
+?>
 <div id="contacto">
     <div id="caja-contacto" class="container">
         <figure class="circle-line last d-none d-xl-block"></figure>
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-9 col-lg-6 col-xl-6">
                 <p id="titulo-c">CONTACTO</p>
-                <!-- <form id='form-contact'>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <input id="correo" class="border border-secondary rounded-pill" type="email" name="Correo" placeholder="Correo">
-                            </div>
-                            <div class="col-lg-6 pr-1">
-                                <input id="nombre" class=" border border-secondary rounded-pill" type="text" name="nombre" placeholder="Nombre">
-                            </div>
-                            <div class="col-lg-6  pl-1">
-                                <input id="apellido" class=" border border-secondary rounded-pill" type="text" name="apellido" placeholder="Apellido">
-                            </div>
-                            <div class="col-lg-6 pr-1">
-                                <input id="empresa" class=" border border-secondary rounded-pill" type="text" name="Empresa" placeholder="Empresa">
-                            </div>
-                            <div class="col-lg-6  pl-1">
-                                <input id="telefono" class="border border-secondary rounded-pill" type="number" name="telefono" placeholder="Telefono">
-                            </div>
-                            <div class="col-lg-12">
-                                <input id="asunto" class="border border-secondary rounded-pill" type="text" name="asunto" placeholder="Asunto">
-                            </div>
-                            <div class="col-lg-12">
-                                <input id="mensaje" class="border border-secondary " type="textarea" name="mensaje" placeholder="Mensaje">
-                            </div>
-                            <div class="col-lg-12">
-                                <input id="enviar" class="" type="submit" name="enviar" value="Enviar">
-                            </div>
-                        </div>
-                    </div>
-                </form> -->
                 <?php echo do_shortcode('[contact-form-7 id="10" title="Contact form 1"]');?>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-xs-12 col-sm-11 col-md-9 col-lg-5 col-xl-5 cont-address">
+                <div class="col-12">
+                    <p class="title">
+                    <img src="<?php echo $bandera['url']; ?>" alt="">
+                    <b><?php echo $section_footer['title']?></b></p>
+                    <address class="content"><?php echo $section_footer['direccion']?></address>
+                </div>
+                <div class="col-12">
+                    <p class="title">
+                    <img src="<?php echo $bandera_2['url']; ?>" alt="">
+                    <b><?php echo $section_footer['title_2']?></b></p>
+                    <address class="content"><?php echo $section_footer['direccion_2']?></address>
+                </div>
             </div>
         </div>
     </div>
